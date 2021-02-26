@@ -11,7 +11,9 @@
 
 ### 2.https://mitaocloud.net/auth/register
 
+### 3.https://www.mxyssr.cc/auth/register
 
+### 4.https://www.kakayun.cyou/auth/register
 
 
 
