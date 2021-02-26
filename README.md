@@ -7,11 +7,11 @@
 
 
 
-### 1.https://www.javayun.date/auth/register
+### 1.https://www.mxyssr.cc/auth/register
 
-### 2.https://mitaocloud.net/auth/register
+### 2.https://www.javayun.date/auth/register
 
-### 3.https://www.mxyssr.cc/auth/register
+### 3.https://mitaocloud.net/auth/register
 
 ### 4.https://www.kakayun.cyou/auth/register
 
