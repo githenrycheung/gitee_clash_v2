@@ -11,13 +11,11 @@
 
 ### 2.https://www.javayun.date/auth/register
 
-### 3.https://mitaocloud.net/auth/register
+### 3.https://www.kakayun.cyou/auth/register
 
-### 4.https://www.kakayun.cyou/auth/register
+### 4.https://www.wogg.me
 
-### 5.https://www.wogg.me
-
-### 6.https://www.sufeiyun.xyz/auth/register
+### 5.https://www.sufeiyun.xyz/auth/register
 
 
 
