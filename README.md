@@ -17,6 +17,8 @@
 
 ### 5.https://www.wogg.me
 
+### 6.https://www.sufeiyun.xyz/auth/register
+
 
 
 
