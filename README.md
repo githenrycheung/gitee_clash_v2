@@ -9,9 +9,9 @@
 
 ### 1.https://www.mxyssr.cc/auth/register
 
-### 2.https://www.javayun.date/auth/register
+### 2.https://www.jafiyun.fun/auth/register
 
-### 3.https://www.kakayun.cyou/auth/register
+### 3.https://kakayun.xyz/auth/register
 
 ### 4.https://www.wogg.me
 
