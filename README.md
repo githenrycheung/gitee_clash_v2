@@ -17,7 +17,7 @@
 
 ### 5.https://www.sufeiyun.xyz/auth/register
 
-### 6.https://cyooo.co/auth/register(https://ooolooo.vip)
+### 6.https://cyooo.co/auth/register  (https://ooolooo.vip)
 
 
 
