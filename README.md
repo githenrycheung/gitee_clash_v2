@@ -4,8 +4,6 @@
 长期更新免费订阅WZ
 
 
-##test banch
-
 
 ### 1.https://www.mxyssr.cc/auth/register
 
