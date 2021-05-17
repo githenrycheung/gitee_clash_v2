@@ -1,8 +1,6 @@
 # FreeSubscribe
 
 #### 介绍
-长期更新免费订阅WZ
-
 
 
 ### 1.https://www.mxyssr.cc/auth/register
@@ -16,6 +14,10 @@
 ### 5.https://www.sufeiyun.xyz/auth/register
 
 ### 6.https://cyooo.co/auth/register  (https://ooolooo.vip)
+
+
+
+
 
 ## 仿造Gmail临时邮箱：
 
