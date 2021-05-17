@@ -17,14 +17,6 @@
 
 ### 6.https://cyooo.co/auth/register  (https://ooolooo.vip)
 
-7.https://cyooo.co/auth/register  (https://ooolooo.vip)
-
-
-
-
-
-
-
 
 
 ## 仿造Gmail临时邮箱：
