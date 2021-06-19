@@ -21,6 +21,8 @@
 
 ### 7.https://www.rerere.xyz/auth/register
 
+### 8.https://www.javayun.cyou/auth/register
+
 
 
 ## 仿造Gmail临时邮箱：
