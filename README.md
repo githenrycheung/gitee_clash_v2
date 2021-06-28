@@ -7,16 +7,16 @@
 
 
 
-| 网址                                                  | 是否可用 |
-| :---------------------------------------------------- | :------: |
-| https://www.mxyssr.cc/auth/register                   |    √     |
-| https://www.jafiyun.fun/auth/register                 |    √     |
-| https://kakayun.xyz/auth/register                     |    √     |
-| https://www.wogg.me/auth/register                     |    √     |
-| https://www.sufeiyun.xyz/auth/register                |    √     |
-| https://cyooo.co/auth/register  (https://ooolooo.vip) |    √     |
-| https://www.rerere.xyz/auth/register                  |    √     |
-| https://www.javayun.cyou/auth/register                |    √     |
+| 网址                                                  | 是否可用 | 流量  |
+| :---------------------------------------------------- | :------: | :---: |
+| https://www.mxyssr.cc/auth/register                   |    √     |  1G+  |
+| https://www.jafiyun.fun/auth/register                 |    √     | 300M+ |
+| https://kakayun.xyz/auth/register                     |    √     | 10G+  |
+| https://www.wogg.me/auth/register                     |    √     |  1G+  |
+| https://www.sufeiyun.xyz/auth/register                |    √     |  1G+  |
+| https://cyooo.co/auth/register  (https://ooolooo.vip) |    √     | 10G+  |
+| https://www.rerere.xyz/auth/register                  |    √     | 10G+  |
+| https://www.javayun.cyou/auth/register                |    √     | 300M+ |
 
 ## 仿造Gmail临时邮箱：
 
