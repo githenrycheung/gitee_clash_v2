@@ -1,7 +1,7 @@
 # FreeSubscribe
 
 #### 介绍
-长期更新免费订阅WZ
+长期更新免费订阅WZD
 
 ##test banch
 
