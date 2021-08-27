@@ -15,7 +15,7 @@
 | https://www.wogg.me/auth/register (https://www.wogg.vip/auth/register) |  √   |  1G+  | ⭐    |
 | https://www.sufeiyun.xyz/auth/register                       |  √   |  1G+  |      |
 | https://cyooo.co/auth/register  (https://ooolooo.vip)        |  √   | 10G+  |      |
-| https://www.rerere.xyz/auth/register                         |  √   | 10G+  |      |
+| https://www.recear.com                                       |  √   | 10G+  |      |
 | https://www.javayun.cyou/auth/register                       |  √   | 300M+ |      |
 
 ## 仿造Gmail临时邮箱：
