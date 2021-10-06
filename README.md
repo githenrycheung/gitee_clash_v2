@@ -17,6 +17,7 @@
 | https://cyooo.co/auth/register  (https://ooolooo.vip)        |  √   | 10G+  |      |
 | https://www.recear.com                                       |  √   | 10G+  |      |
 | https://www.javayun.cyou/auth/register                       |  √   | 300M+ |      |
+| https://www.viyun.pw/auth/register
 
 ## 仿造Gmail临时邮箱：
 
