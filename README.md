@@ -17,8 +17,7 @@
 | https://cyooo.co/auth/register  (https://ooolooo.vip)        |  √   | 10G+  |      |
 | https://www.recear.com                                       |  √   | 10G+  |      |
 | https://www.javayun.cyou/auth/register                       |  √   | 300M+ |      |
-| https://www.sufeiyun.icu/auth/register                       |  √   |  1G+  | ⭐    |
-| https://www.uuyun.one/auth/register                          |  √   | 521M  |      |
+| https://www.viyun.pw/auth/register
 
 ## 仿造Gmail临时邮箱：
 
@@ -29,3 +28,6 @@
 #### 1.https://sub.90.ms/（国内推荐）
 
 #### 2.https://zl.suying777.com/
+
+
+ddd
