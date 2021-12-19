@@ -5,68 +5,92 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: ' |85.75Mb_1', server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: ' |79.38Mb_2', server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: ' |86.50Mb_3', server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 'Relay_ |23.34Mb_1', server: eeth0aey.nodeinfo.icu, port: 6303, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 'Relay_ |46.19Mb_2', server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: 'Pool_+|29.83Mb_3', server: 118.107.244.112, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Pool_+|26.21Mb_4', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb', server: mf-do-ua-10.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
+  - {name: 'Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb', server: mf-do-ua-02.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      -  |85.75Mb_1
-      -  |79.38Mb_2
-      -  |86.50Mb_3
+      - Relay_ |23.34Mb_1
+      - Relay_ |46.19Mb_2
+      - Pool_+|29.83Mb_3
+      - Pool_+|26.21Mb_4
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      -  |85.75Mb_1
-      -  |79.38Mb_2
-      -  |86.50Mb_3
+      - Relay_ |23.34Mb_1
+      - Relay_ |46.19Mb_2
+      - Pool_+|29.83Mb_3
+      - Pool_+|26.21Mb_4
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      -  |85.75Mb_1
-      -  |79.38Mb_2
-      -  |86.50Mb_3
+      - Relay_ |23.34Mb_1
+      - Relay_ |46.19Mb_2
+      - Pool_+|29.83Mb_3
+      - Pool_+|26.21Mb_4
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      -  |85.75Mb_1
-      -  |79.38Mb_2
-      -  |86.50Mb_3
+      - Relay_ |23.34Mb_1
+      - Relay_ |46.19Mb_2
+      - Pool_+|29.83Mb_3
+      - Pool_+|26.21Mb_4
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      -  |85.75Mb_1
-      -  |79.38Mb_2
-      -  |86.50Mb_3
+      - Relay_ |23.34Mb_1
+      - Relay_ |46.19Mb_2
+      - Pool_+|29.83Mb_3
+      - Pool_+|26.21Mb_4
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      -  |85.75Mb_1
-      -  |79.38Mb_2
-      -  |86.50Mb_3
+      - Relay_ |23.34Mb_1
+      - Relay_ |46.19Mb_2
+      - Pool_+|29.83Mb_3
+      - Pool_+|26.21Mb_4
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -  |85.75Mb_1
-      -  |79.38Mb_2
-      -  |86.50Mb_3
+      - Relay_ |23.34Mb_1
+      - Relay_ |46.19Mb_2
+      - Pool_+|29.83Mb_3
+      - Pool_+|26.21Mb_4
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -82,9 +106,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      -  |85.75Mb_1
-      -  |79.38Mb_2
-      -  |86.50Mb_3
+      - Relay_ |23.34Mb_1
+      - Relay_ |46.19Mb_2
+      - Pool_+|29.83Mb_3
+      - Pool_+|26.21Mb_4
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1829 |25.07Mb
+      - Relay_馃嚭馃嚫US-馃嚭馃嚫US_1828 |44.74Mb
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
