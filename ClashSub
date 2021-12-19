@@ -5,236 +5,68 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'Relay_ |37.65Mb_1', server: global-transit-02-sg.pucdn.me, port: 62011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-12.pucdn.me}}
-  - {name: 'Relay_ |36.53Mb_2', server: guangzou-yd-jy-03.pucdn.me, port: 40004, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-04.pucdn.me}}
-  - {name: 'Relay_ |40.37Mb_3', server: guangzou-yd-jy-03.pucdn.me, port: 62007, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-08.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb', server: guangzou-yd-jy-03.pucdn.me, port: 62008, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-09.pucdn.me}}
-  - {name: 'Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb', server: mf-az-yd-03.xncloud.xyz, port: 80, type: vmess, uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /niaoyun, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Relay_ |20.48Mb_6', server: powa8agh.nodeinfo.icu, port: 6305, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_ |24.82Mb_7', server: eeth0aey.nodeinfo.icu, port: 6303, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_ |31.74Mb_8', server: guangzou-yd-jy-03.pucdn.me, port: 40002, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-02.pucdn.me}}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb', server: 112.33.32.136, port: 10003, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
-  - {name: 'Relay_ |51.48Mb_10', server: ib7uge9u.nodeinfo.icu, port: 6304, type: ssr, password: "di15PV", cipher: aes-256-cfb, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_ |36.34Mb_11', server: athe0ugh.nodeinfo.icu, port: 1801, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_ |18.11Mb_12', server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-06.pucdn.me}}
-  - {name: 'Relay_ |27.16Mb_13', server: global-transit-hk-v2.pucdn.me, port: 40009, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-09.pucdn.me}}
-  - {name: 'Relay_ |36.56Mb_14', server: global-transit-hk-v2.pucdn.me, port: 40011, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-11.pucdn.me}}
-  - {name: '+|20.01Mb_15', server: 198.57.27.241, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '+|21.16Mb_16', server: 198.57.27.241, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb', server: zj.haojiahuo.club, port: 30077, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: '+|21.21Mb_18', server: 198.57.27.241, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '馃嚭馃嚫US_1959 |25.27Mb', server: 149.248.18.62, port: 64827, type: vmess, uuid: ab1b264e-5fae-11ec-b1b0-560003be094f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ESewoGXy/}
-  - {name: 'Relay_ |83.12Mb_20', server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_ |20.93Mb_21', server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_ |35.57Mb_22', server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_ |91.30Mb_23', server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
-  - {name: 'Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb', server: global-transit-02-sg.pucdn.me, port: 62009, type: vmess, uuid: 98e77fe2-773a-380b-89df-9f3dae0127bd, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L1-aws-hk-10.pucdn.me}}
+  - {name: ' |85.75Mb_1', server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: ' |79.38Mb_2', server: ahheil5u.nodeinfo.icu, port: 6012, type: ssr, password: "di15PV", cipher: chacha20-ietf, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
+  - {name: ' |86.50Mb_3', server: quaex7oo.nodeinfo.icu, port: 7005, type: ssr, password: "di15PV", cipher: rc4-md5, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 155402:h6F10T, obfs-param: 078e5155402.www.gov.hk}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |37.65Mb_1
-      - Relay_ |36.53Mb_2
-      - Relay_ |40.37Mb_3
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb
-      - Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb
-      - Relay_ |20.48Mb_6
-      - Relay_ |24.82Mb_7
-      - Relay_ |31.74Mb_8
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb
-      - Relay_ |51.48Mb_10
-      - Relay_ |36.34Mb_11
-      - Relay_ |18.11Mb_12
-      - Relay_ |27.16Mb_13
-      - Relay_ |36.56Mb_14
-      - +|20.01Mb_15
-      - +|21.16Mb_16
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb
-      - +|21.21Mb_18
-      - 馃嚭馃嚫US_1959 |25.27Mb
-      - Relay_ |83.12Mb_20
-      - Relay_ |20.93Mb_21
-      - Relay_ |35.57Mb_22
-      - Relay_ |91.30Mb_23
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb
+      -  |85.75Mb_1
+      -  |79.38Mb_2
+      -  |86.50Mb_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |37.65Mb_1
-      - Relay_ |36.53Mb_2
-      - Relay_ |40.37Mb_3
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb
-      - Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb
-      - Relay_ |20.48Mb_6
-      - Relay_ |24.82Mb_7
-      - Relay_ |31.74Mb_8
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb
-      - Relay_ |51.48Mb_10
-      - Relay_ |36.34Mb_11
-      - Relay_ |18.11Mb_12
-      - Relay_ |27.16Mb_13
-      - Relay_ |36.56Mb_14
-      - +|20.01Mb_15
-      - +|21.16Mb_16
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb
-      - +|21.21Mb_18
-      - 馃嚭馃嚫US_1959 |25.27Mb
-      - Relay_ |83.12Mb_20
-      - Relay_ |20.93Mb_21
-      - Relay_ |35.57Mb_22
-      - Relay_ |91.30Mb_23
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb
+      -  |85.75Mb_1
+      -  |79.38Mb_2
+      -  |86.50Mb_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |37.65Mb_1
-      - Relay_ |36.53Mb_2
-      - Relay_ |40.37Mb_3
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb
-      - Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb
-      - Relay_ |20.48Mb_6
-      - Relay_ |24.82Mb_7
-      - Relay_ |31.74Mb_8
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb
-      - Relay_ |51.48Mb_10
-      - Relay_ |36.34Mb_11
-      - Relay_ |18.11Mb_12
-      - Relay_ |27.16Mb_13
-      - Relay_ |36.56Mb_14
-      - +|20.01Mb_15
-      - +|21.16Mb_16
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb
-      - +|21.21Mb_18
-      - 馃嚭馃嚫US_1959 |25.27Mb
-      - Relay_ |83.12Mb_20
-      - Relay_ |20.93Mb_21
-      - Relay_ |35.57Mb_22
-      - Relay_ |91.30Mb_23
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb
+      -  |85.75Mb_1
+      -  |79.38Mb_2
+      -  |86.50Mb_3
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |37.65Mb_1
-      - Relay_ |36.53Mb_2
-      - Relay_ |40.37Mb_3
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb
-      - Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb
-      - Relay_ |20.48Mb_6
-      - Relay_ |24.82Mb_7
-      - Relay_ |31.74Mb_8
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb
-      - Relay_ |51.48Mb_10
-      - Relay_ |36.34Mb_11
-      - Relay_ |18.11Mb_12
-      - Relay_ |27.16Mb_13
-      - Relay_ |36.56Mb_14
-      - +|20.01Mb_15
-      - +|21.16Mb_16
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb
-      - +|21.21Mb_18
-      - 馃嚭馃嚫US_1959 |25.27Mb
-      - Relay_ |83.12Mb_20
-      - Relay_ |20.93Mb_21
-      - Relay_ |35.57Mb_22
-      - Relay_ |91.30Mb_23
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb
+      -  |85.75Mb_1
+      -  |79.38Mb_2
+      -  |86.50Mb_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |37.65Mb_1
-      - Relay_ |36.53Mb_2
-      - Relay_ |40.37Mb_3
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb
-      - Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb
-      - Relay_ |20.48Mb_6
-      - Relay_ |24.82Mb_7
-      - Relay_ |31.74Mb_8
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb
-      - Relay_ |51.48Mb_10
-      - Relay_ |36.34Mb_11
-      - Relay_ |18.11Mb_12
-      - Relay_ |27.16Mb_13
-      - Relay_ |36.56Mb_14
-      - +|20.01Mb_15
-      - +|21.16Mb_16
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb
-      - +|21.21Mb_18
-      - 馃嚭馃嚫US_1959 |25.27Mb
-      - Relay_ |83.12Mb_20
-      - Relay_ |20.93Mb_21
-      - Relay_ |35.57Mb_22
-      - Relay_ |91.30Mb_23
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb
+      -  |85.75Mb_1
+      -  |79.38Mb_2
+      -  |86.50Mb_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |37.65Mb_1
-      - Relay_ |36.53Mb_2
-      - Relay_ |40.37Mb_3
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb
-      - Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb
-      - Relay_ |20.48Mb_6
-      - Relay_ |24.82Mb_7
-      - Relay_ |31.74Mb_8
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb
-      - Relay_ |51.48Mb_10
-      - Relay_ |36.34Mb_11
-      - Relay_ |18.11Mb_12
-      - Relay_ |27.16Mb_13
-      - Relay_ |36.56Mb_14
-      - +|20.01Mb_15
-      - +|21.16Mb_16
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb
-      - +|21.21Mb_18
-      - 馃嚭馃嚫US_1959 |25.27Mb
-      - Relay_ |83.12Mb_20
-      - Relay_ |20.93Mb_21
-      - Relay_ |35.57Mb_22
-      - Relay_ |91.30Mb_23
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb
+      -  |85.75Mb_1
+      -  |79.38Mb_2
+      -  |86.50Mb_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |37.65Mb_1
-      - Relay_ |36.53Mb_2
-      - Relay_ |40.37Mb_3
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb
-      - Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb
-      - Relay_ |20.48Mb_6
-      - Relay_ |24.82Mb_7
-      - Relay_ |31.74Mb_8
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb
-      - Relay_ |51.48Mb_10
-      - Relay_ |36.34Mb_11
-      - Relay_ |18.11Mb_12
-      - Relay_ |27.16Mb_13
-      - Relay_ |36.56Mb_14
-      - +|20.01Mb_15
-      - +|21.16Mb_16
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb
-      - +|21.21Mb_18
-      - 馃嚭馃嚫US_1959 |25.27Mb
-      - Relay_ |83.12Mb_20
-      - Relay_ |20.93Mb_21
-      - Relay_ |35.57Mb_22
-      - Relay_ |91.30Mb_23
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb
+      -  |85.75Mb_1
+      -  |79.38Mb_2
+      -  |86.50Mb_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -250,30 +82,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |37.65Mb_1
-      - Relay_ |36.53Mb_2
-      - Relay_ |40.37Mb_3
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_321 |47.18Mb
-      - Relay_馃嚠馃嚦IN-馃嚠馃嚦IN_603 |129.75Mb
-      - Relay_ |20.48Mb_6
-      - Relay_ |24.82Mb_7
-      - Relay_ |31.74Mb_8
-      - Relay_馃嚚馃嚦CN-馃嚬馃嚰TW_323 |24.44Mb
-      - Relay_ |51.48Mb_10
-      - Relay_ |36.34Mb_11
-      - Relay_ |18.11Mb_12
-      - Relay_ |27.16Mb_13
-      - Relay_ |36.56Mb_14
-      - +|20.01Mb_15
-      - +|21.16Mb_16
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_328 |15.89Mb
-      - +|21.21Mb_18
-      - 馃嚭馃嚫US_1959 |25.27Mb
-      - Relay_ |83.12Mb_20
-      - Relay_ |20.93Mb_21
-      - Relay_ |35.57Mb_22
-      - Relay_ |91.30Mb_23
-      - Relay_馃嚚馃嚦CN-馃嚭馃嚫US_289 |40.95Mb
+      -  |85.75Mb_1
+      -  |79.38Mb_2
+      -  |86.50Mb_3
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
