@@ -5,220 +5,84 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'n_34.77M_1', server: 116.163.14.51, port: 18035, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_19.28M_2', server: 116.163.14.51, port: 18035, type: vmess, uuid: 572e1cfa-bcfc-3665-86f0-b49c28b92a70, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_15.49M_3', server: 116.163.14.51, port: 18023, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_28.84M_4', server: 120.241.72.84, port: 18120, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool}
-  - {name: 'n_16.17M_5', server: 120.241.72.116, port: 18034, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_43.65M_6', server: 116.163.14.51, port: 18036, type: vmess, uuid: 572e1cfa-bcfc-3665-86f0-b49c28b92a70, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_26.93M_7', server: 120.241.72.84, port: 18015, type: vmess, uuid: 572e1cfa-bcfc-3665-86f0-b49c28b92a70, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'Pool_+|17.35Mb_8', server: 118.107.244.112, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'n_17.82M_9', server: 116.163.14.146, port: 18065, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool}
-  - {name: 'n_26.97M_10', server: 116.163.14.51, port: 18036, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_20.55M_11', server: 116.163.14.51, port: 18140, type: vmess, uuid: 572e1cfa-bcfc-3665-86f0-b49c28b92a70, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_23.09M_12', server: 116.163.14.51, port: 18139, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_47.77M_13', server: 120.241.72.84, port: 18006, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_27.54M_14', server: 120.197.130.73, port: 18033, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_23.10M_15', server: 120.241.72.116, port: 18137, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_24.53M_16', server: 116.163.14.51, port: 18140, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_41.86M_17', server: 120.241.72.84, port: 18003, type: vmess, uuid: 572e1cfa-bcfc-3665-86f0-b49c28b92a70, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_32.07M_18', server: 120.241.72.84, port: 18005, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_40.65M_19', server: 120.241.72.84, port: 18016, type: vmess, uuid: 572e1cfa-bcfc-3665-86f0-b49c28b92a70, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_41.45M_20', server: 120.241.72.84, port: 18015, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /mojing, ws-headers: {Host: t.me/vpnhat}}
-  - {name: 'n_59.34M_21', server: 120.241.72.97, port: 18119, type: vmess, uuid: 572e1cfa-bcfc-3665-86f0-b49c28b92a70, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool}
-  - {name: 'n_37.92M_22', server: 120.241.72.97, port: 18119, type: vmess, uuid: 7260c038-c8ff-3fb6-bea7-c6a550f336a4, alterId: 0, cipher: auto, tls: false, network: tcp, ws-path: t.me/vpnpool}
+  - {name: 'Relay_ |34.95Mb_1', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: false, network: tcp, ws-path: /}
+  - {name: 'Relay_ |28.62Mb_2', server: 1207tw.fans8.xyz, port: 80, type: vmess, uuid: d1f1d432-0300-3b65-b90e-b65beaa68180, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray}
+  - {name: 'Relay_+|23.24Mb_3', server: 120.232.43.189, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418}
+  - {name: 'Pool_馃嚟馃嚢HK_480+|26.21Mb', server: 118.107.244.112, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'Relay_+|21.05Mb_5', server: 120.232.43.189, port: 20002, type: ss, cipher: chacha20-ietf-poly1305, password: b638006b-8fe5-4e4c-ba84-7efcfc9df418}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_34.77M_1
-      - n_19.28M_2
-      - n_15.49M_3
-      - n_28.84M_4
-      - n_16.17M_5
-      - n_43.65M_6
-      - n_26.93M_7
-      - Pool_+|17.35Mb_8
-      - n_17.82M_9
-      - n_26.97M_10
-      - n_20.55M_11
-      - n_23.09M_12
-      - n_47.77M_13
-      - n_27.54M_14
-      - n_23.10M_15
-      - n_24.53M_16
-      - n_41.86M_17
-      - n_32.07M_18
-      - n_40.65M_19
-      - n_41.45M_20
-      - n_59.34M_21
-      - n_37.92M_22
+      - Relay_ |34.95Mb_1
+      - Relay_ |28.62Mb_2
+      - Relay_+|23.24Mb_3
+      - Pool_馃嚟馃嚢HK_480+|26.21Mb
+      - Relay_+|21.05Mb_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - n_34.77M_1
-      - n_19.28M_2
-      - n_15.49M_3
-      - n_28.84M_4
-      - n_16.17M_5
-      - n_43.65M_6
-      - n_26.93M_7
-      - Pool_+|17.35Mb_8
-      - n_17.82M_9
-      - n_26.97M_10
-      - n_20.55M_11
-      - n_23.09M_12
-      - n_47.77M_13
-      - n_27.54M_14
-      - n_23.10M_15
-      - n_24.53M_16
-      - n_41.86M_17
-      - n_32.07M_18
-      - n_40.65M_19
-      - n_41.45M_20
-      - n_59.34M_21
-      - n_37.92M_22
+      - Relay_ |34.95Mb_1
+      - Relay_ |28.62Mb_2
+      - Relay_+|23.24Mb_3
+      - Pool_馃嚟馃嚢HK_480+|26.21Mb
+      - Relay_+|21.05Mb_5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - n_34.77M_1
-      - n_19.28M_2
-      - n_15.49M_3
-      - n_28.84M_4
-      - n_16.17M_5
-      - n_43.65M_6
-      - n_26.93M_7
-      - Pool_+|17.35Mb_8
-      - n_17.82M_9
-      - n_26.97M_10
-      - n_20.55M_11
-      - n_23.09M_12
-      - n_47.77M_13
-      - n_27.54M_14
-      - n_23.10M_15
-      - n_24.53M_16
-      - n_41.86M_17
-      - n_32.07M_18
-      - n_40.65M_19
-      - n_41.45M_20
-      - n_59.34M_21
-      - n_37.92M_22
+      - Relay_ |34.95Mb_1
+      - Relay_ |28.62Mb_2
+      - Relay_+|23.24Mb_3
+      - Pool_馃嚟馃嚢HK_480+|26.21Mb
+      - Relay_+|21.05Mb_5
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_34.77M_1
-      - n_19.28M_2
-      - n_15.49M_3
-      - n_28.84M_4
-      - n_16.17M_5
-      - n_43.65M_6
-      - n_26.93M_7
-      - Pool_+|17.35Mb_8
-      - n_17.82M_9
-      - n_26.97M_10
-      - n_20.55M_11
-      - n_23.09M_12
-      - n_47.77M_13
-      - n_27.54M_14
-      - n_23.10M_15
-      - n_24.53M_16
-      - n_41.86M_17
-      - n_32.07M_18
-      - n_40.65M_19
-      - n_41.45M_20
-      - n_59.34M_21
-      - n_37.92M_22
+      - Relay_ |34.95Mb_1
+      - Relay_ |28.62Mb_2
+      - Relay_+|23.24Mb_3
+      - Pool_馃嚟馃嚢HK_480+|26.21Mb
+      - Relay_+|21.05Mb_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - n_34.77M_1
-      - n_19.28M_2
-      - n_15.49M_3
-      - n_28.84M_4
-      - n_16.17M_5
-      - n_43.65M_6
-      - n_26.93M_7
-      - Pool_+|17.35Mb_8
-      - n_17.82M_9
-      - n_26.97M_10
-      - n_20.55M_11
-      - n_23.09M_12
-      - n_47.77M_13
-      - n_27.54M_14
-      - n_23.10M_15
-      - n_24.53M_16
-      - n_41.86M_17
-      - n_32.07M_18
-      - n_40.65M_19
-      - n_41.45M_20
-      - n_59.34M_21
-      - n_37.92M_22
+      - Relay_ |34.95Mb_1
+      - Relay_ |28.62Mb_2
+      - Relay_+|23.24Mb_3
+      - Pool_馃嚟馃嚢HK_480+|26.21Mb
+      - Relay_+|21.05Mb_5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - n_34.77M_1
-      - n_19.28M_2
-      - n_15.49M_3
-      - n_28.84M_4
-      - n_16.17M_5
-      - n_43.65M_6
-      - n_26.93M_7
-      - Pool_+|17.35Mb_8
-      - n_17.82M_9
-      - n_26.97M_10
-      - n_20.55M_11
-      - n_23.09M_12
-      - n_47.77M_13
-      - n_27.54M_14
-      - n_23.10M_15
-      - n_24.53M_16
-      - n_41.86M_17
-      - n_32.07M_18
-      - n_40.65M_19
-      - n_41.45M_20
-      - n_59.34M_21
-      - n_37.92M_22
+      - Relay_ |34.95Mb_1
+      - Relay_ |28.62Mb_2
+      - Relay_+|23.24Mb_3
+      - Pool_馃嚟馃嚢HK_480+|26.21Mb
+      - Relay_+|21.05Mb_5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_34.77M_1
-      - n_19.28M_2
-      - n_15.49M_3
-      - n_28.84M_4
-      - n_16.17M_5
-      - n_43.65M_6
-      - n_26.93M_7
-      - Pool_+|17.35Mb_8
-      - n_17.82M_9
-      - n_26.97M_10
-      - n_20.55M_11
-      - n_23.09M_12
-      - n_47.77M_13
-      - n_27.54M_14
-      - n_23.10M_15
-      - n_24.53M_16
-      - n_41.86M_17
-      - n_32.07M_18
-      - n_40.65M_19
-      - n_41.45M_20
-      - n_59.34M_21
-      - n_37.92M_22
+      - Relay_ |34.95Mb_1
+      - Relay_ |28.62Mb_2
+      - Relay_+|23.24Mb_3
+      - Pool_馃嚟馃嚢HK_480+|26.21Mb
+      - Relay_+|21.05Mb_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -234,28 +98,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - n_34.77M_1
-      - n_19.28M_2
-      - n_15.49M_3
-      - n_28.84M_4
-      - n_16.17M_5
-      - n_43.65M_6
-      - n_26.93M_7
-      - Pool_+|17.35Mb_8
-      - n_17.82M_9
-      - n_26.97M_10
-      - n_20.55M_11
-      - n_23.09M_12
-      - n_47.77M_13
-      - n_27.54M_14
-      - n_23.10M_15
-      - n_24.53M_16
-      - n_41.86M_17
-      - n_32.07M_18
-      - n_40.65M_19
-      - n_41.45M_20
-      - n_59.34M_21
-      - n_37.92M_22
+      - Relay_ |34.95Mb_1
+      - Relay_ |28.62Mb_2
+      - Relay_+|23.24Mb_3
+      - Pool_馃嚟馃嚢HK_480+|26.21Mb
+      - Relay_+|21.05Mb_5
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
