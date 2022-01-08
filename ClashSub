@@ -5,340 +5,236 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: 'v1丨印度丨AZ丨隧道中转丨2_1', server: yooo.xiaobaigou.cc, port: 56009, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨印度丨隧道中转丨1_2', server: yooo.xiaobaigou.cc, port: 56008, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨台湾丨三网直连丨netflix.解锁_3', server: tw2.xiaobaigou.cc, port: 54067, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨台湾丨原生丨中台中继丨_4', server: twzj1.xiaobaigou.cc, port: 40002, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨台湾丨原生丨静态_5', server: twjt1.xiaobaigou.cc, port: 31593, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨新加坡丨微软丨AZ丨V2ray_6', server: xgwr65.xiaobaigou.cc, port: 62311, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨新加坡丨微软丨高速丨Netflix 解锁_7', server: xpwr2.xiaobaigou.cc, port: 61001, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨新加坡丨直连丨V2ray_8', server: xp01.xiaobaigou.cc, port: 60010, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨新加坡丨直连丨三网优化V2ray_9', server: xp02.xiaobaigou.cc, port: 30011, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨新加坡丨稳定丝滑丨V2ray_10', server: suyun1.xiaobaigou.cc, port: 53580, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨日本丨微软丨东京丨V2ray_11', server: rbwr15.xiaobaigou.cc, port: 58942, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨日本丨微软丨大阪丨2丨V2ray_12', server: rbwr015.xiaobaigou.cc, port: 32192, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨澳大利亚丨隧道中转丨1丨V2ray_13', server: yooo.xiaobaigou.cc, port: 56006, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨澳大利亚丨隧道中转丨2丨_14', server: yooo.xiaobaigou.cc, port: 56007, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨美国丨原生丨三网优化丨V2ray_15', server: twzj5.xiaobaigou.cc, port: 5602, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨美国丨微软丨优化高速丨V2ray_16', server: mgwr6.xiaobaigou.cc, port: 40404, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 3, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨韩国丨微软丨落地丨2丨V2ray_17', server: hgwr07.xiaobaigou.cc, port: 443, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨韩国丨微软丨落地丨V2ray_18', server: hgwr7.xiaobaigou.cc, port: 12561, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨香港丨AZ丨2丨netflix解锁_19', server: xgwr26.xiaobaigou.cc, port: 44359, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨AZ丨直连丨V2ray_20', server: xgwr20.xiaobaigou.cc, port: 37650, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21', server: xgwr14.xiaobaigou.cc, port: 44973, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨香港丨HKT  2丨_22', server: hkt2.xiaobaigou.cc, port: 60019, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨香港丨HKT丨V2ray_23', server: 1hkt101.xiaobaigou.cc, port: 61001, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨HKT丨三网优化_24', server: xgwr11.xiaobaigou.cc, port: 53580, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨香港丨HK丨V2ray_25', server: xxgwr5.xiaobaigou.cc, port: 61022, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨微软丨1丨落地丨_26', server: xgwr15.xiaobaigou.cc, port: 60009, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨香港丨微软丨2丨落地_27', server: xgwr13.xiaobaigou.cc, port: 60007, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨香港丨微软丨2优化  Netflix 解锁_28', server: xgwr9.xiaobaigou.cc, port: 60005, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨微软丨AZ丨3_29', server: xgwr21.xiaobaigou.cc, port: 28935, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨微软丨优化  Netflix 解锁_30', server: xgwr27.xiaobaigou.cc, port: 45436, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨支持免流丨8080 端口_31', server: 1xgjpzf.xiaobaigou.cc, port: 8080, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨支持免流丨80端口_32', server: xgjpzf.xiaobaigou.cc, port: 80, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨香港丨沪港中继丨HKT_33', server: hugang01.xiaobaigou.cc, port: 40001, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: 'v1丨香港丨高速丨V2ray_34', server: xiao1.xiaobaigou.cc, port: 47830, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /v2ray}
-  - {name: 'v1丨马来西亚丨原生丨直连_35', server: yooo.xiaobaigou.cc, port: 56011, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: '免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36', server: xiao.xiaobaigou.cc, port: 37840, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
-  - {name: '免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37', server: alxp31.xiaobaigou.cc, port: 50482, type: vmess, uuid: 8eb18430-e225-3f48-8412-d47ab78b3ba8, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: www.bing.com}}
+  - {name: 'Pool_+|19.00Mb_1', server: 118.107.244.112, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 'Pool_+|34.42Mb_2', server: 118.107.244.112, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 'Pool_+|31.78Mb_3', server: 118.107.244.112, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 'Relay_+|54.63Mb_4', server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: 'Relay_+|64.49Mb_5', server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: 'Pool_+|23.21Mb_6', server: 118.107.244.112, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'Relay_ |27.17Mb_7', server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/vvv", host: shcn2-06b.iplc188.com }}
+  - {name: 'Relay_+|61.74Mb_8', server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ}
+  - {name: 'Relay_+|41.21Mb_9', server: jp11.holiganfan.com, port: 10088?allowInsecure=1, type: trojan, password: 8ce38f17-b2be-453a-8d25-deec1a0aabba}
+  - {name: 'Relay_+|36.72Mb_10', server: fuck.biubiubiu.cloud, port: 443?allowInsecure=1, type: trojan, password: B4iK9pXaRnHfr9Rp}
+  - {name: 'n_20.00M_11', server: 72.167.45.6, port: 443?allowInsecure=1, type: trojan, password: 28d98f761aca9d636f44db62544628eb}
+  - {name: 'Pool_+|17.57Mb_12', server: 118.107.244.112, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'n_19.93M_13', server: 72.167.45.6, port: 443?allowInsecure=1, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674}
+  - {name: 'Relay_+|21.55Mb_14', server: t1.ssrsub.com, port: 8443?allowInsecure=1, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57}
+  - {name: 'Relay_+|21.39Mb_15', server: t1.ssrsub.com, port: 8443?allowInsecure=1, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5}
+  - {name: 'n_23.57M_16', server: 107.167.23.50, port: 8084, type: ssr, password: "RhKqtYoG8", cipher: aes-256-cfb, protocol: origin, obfs: tls1.2_ticket_auth}
+  - {name: 'Relay_+|22.16Mb_17', server: t3.ssrsub.com, port: 156?allowInsecure=1, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5}
+  - {name: 'Relay_ |24.72Mb_18', server: c23s3.jamjams.net, port: 61173, type: vmess, uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b, alterId: 0, cipher: auto, tls: false, network: tcp, ws-opts: { path: "/v2ray", host: c23s3.jamjams.net }}
+  - {name: 'Relay_+|22.30Mb_19', server: t4.ssrsub.com, port: 156?allowInsecure=1, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57}
+  - {name: 'Relay_+|22.10Mb_20', server: t3.ssrsub.com, port: 156?allowInsecure=1, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57}
+  - {name: 'Relay_+|21.58Mb_21', server: t4.ssrsub.com, port: 156?allowInsecure=1, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5}
+  - {name: 'n_24.91M_22', server: 136.243.191.88, port: 443, type: ssr, password: "sEscPBiAD9K$\u0026@79", cipher: aes-128-ctr, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth}
+  - {name: 'n_17.15M_23', server: 169.197.142.39, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'n_16.41M_24', server: 169.197.142.39, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v1丨印度丨AZ丨隧道中转丨2_1
-      - v1丨印度丨隧道中转丨1_2
-      - v1丨台湾丨三网直连丨netflix.解锁_3
-      - v1丨台湾丨原生丨中台中继丨_4
-      - v1丨台湾丨原生丨静态_5
-      - v1丨新加坡丨微软丨AZ丨V2ray_6
-      - v1丨新加坡丨微软丨高速丨Netflix 解锁_7
-      - v1丨新加坡丨直连丨V2ray_8
-      - v1丨新加坡丨直连丨三网优化V2ray_9
-      - v1丨新加坡丨稳定丝滑丨V2ray_10
-      - v1丨日本丨微软丨东京丨V2ray_11
-      - v1丨日本丨微软丨大阪丨2丨V2ray_12
-      - v1丨澳大利亚丨隧道中转丨1丨V2ray_13
-      - v1丨澳大利亚丨隧道中转丨2丨_14
-      - v1丨美国丨原生丨三网优化丨V2ray_15
-      - v1丨美国丨微软丨优化高速丨V2ray_16
-      - v1丨韩国丨微软丨落地丨2丨V2ray_17
-      - v1丨韩国丨微软丨落地丨V2ray_18
-      - v1丨香港丨AZ丨2丨netflix解锁_19
-      - v1丨香港丨AZ丨直连丨V2ray_20
-      - v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21
-      - v1丨香港丨HKT  2丨_22
-      - v1丨香港丨HKT丨V2ray_23
-      - v1丨香港丨HKT丨三网优化_24
-      - v1丨香港丨HK丨V2ray_25
-      - v1丨香港丨微软丨1丨落地丨_26
-      - v1丨香港丨微软丨2丨落地_27
-      - v1丨香港丨微软丨2优化  Netflix 解锁_28
-      - v1丨香港丨微软丨AZ丨3_29
-      - v1丨香港丨微软丨优化  Netflix 解锁_30
-      - v1丨香港丨支持免流丨8080 端口_31
-      - v1丨香港丨支持免流丨80端口_32
-      - v1丨香港丨沪港中继丨HKT_33
-      - v1丨香港丨高速丨V2ray_34
-      - v1丨马来西亚丨原生丨直连_35
-      - 免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36
-      - 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37
+      - Pool_+|19.00Mb_1
+      - Pool_+|34.42Mb_2
+      - Pool_+|31.78Mb_3
+      - Relay_+|54.63Mb_4
+      - Relay_+|64.49Mb_5
+      - Pool_+|23.21Mb_6
+      - Relay_ |27.17Mb_7
+      - Relay_+|61.74Mb_8
+      - Relay_+|41.21Mb_9
+      - Relay_+|36.72Mb_10
+      - n_20.00M_11
+      - Pool_+|17.57Mb_12
+      - n_19.93M_13
+      - Relay_+|21.55Mb_14
+      - Relay_+|21.39Mb_15
+      - n_23.57M_16
+      - Relay_+|22.16Mb_17
+      - Relay_ |24.72Mb_18
+      - Relay_+|22.30Mb_19
+      - Relay_+|22.10Mb_20
+      - Relay_+|21.58Mb_21
+      - n_24.91M_22
+      - n_17.15M_23
+      - n_16.41M_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v1丨印度丨AZ丨隧道中转丨2_1
-      - v1丨印度丨隧道中转丨1_2
-      - v1丨台湾丨三网直连丨netflix.解锁_3
-      - v1丨台湾丨原生丨中台中继丨_4
-      - v1丨台湾丨原生丨静态_5
-      - v1丨新加坡丨微软丨AZ丨V2ray_6
-      - v1丨新加坡丨微软丨高速丨Netflix 解锁_7
-      - v1丨新加坡丨直连丨V2ray_8
-      - v1丨新加坡丨直连丨三网优化V2ray_9
-      - v1丨新加坡丨稳定丝滑丨V2ray_10
-      - v1丨日本丨微软丨东京丨V2ray_11
-      - v1丨日本丨微软丨大阪丨2丨V2ray_12
-      - v1丨澳大利亚丨隧道中转丨1丨V2ray_13
-      - v1丨澳大利亚丨隧道中转丨2丨_14
-      - v1丨美国丨原生丨三网优化丨V2ray_15
-      - v1丨美国丨微软丨优化高速丨V2ray_16
-      - v1丨韩国丨微软丨落地丨2丨V2ray_17
-      - v1丨韩国丨微软丨落地丨V2ray_18
-      - v1丨香港丨AZ丨2丨netflix解锁_19
-      - v1丨香港丨AZ丨直连丨V2ray_20
-      - v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21
-      - v1丨香港丨HKT  2丨_22
-      - v1丨香港丨HKT丨V2ray_23
-      - v1丨香港丨HKT丨三网优化_24
-      - v1丨香港丨HK丨V2ray_25
-      - v1丨香港丨微软丨1丨落地丨_26
-      - v1丨香港丨微软丨2丨落地_27
-      - v1丨香港丨微软丨2优化  Netflix 解锁_28
-      - v1丨香港丨微软丨AZ丨3_29
-      - v1丨香港丨微软丨优化  Netflix 解锁_30
-      - v1丨香港丨支持免流丨8080 端口_31
-      - v1丨香港丨支持免流丨80端口_32
-      - v1丨香港丨沪港中继丨HKT_33
-      - v1丨香港丨高速丨V2ray_34
-      - v1丨马来西亚丨原生丨直连_35
-      - 免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36
-      - 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37
+      - Pool_+|19.00Mb_1
+      - Pool_+|34.42Mb_2
+      - Pool_+|31.78Mb_3
+      - Relay_+|54.63Mb_4
+      - Relay_+|64.49Mb_5
+      - Pool_+|23.21Mb_6
+      - Relay_ |27.17Mb_7
+      - Relay_+|61.74Mb_8
+      - Relay_+|41.21Mb_9
+      - Relay_+|36.72Mb_10
+      - n_20.00M_11
+      - Pool_+|17.57Mb_12
+      - n_19.93M_13
+      - Relay_+|21.55Mb_14
+      - Relay_+|21.39Mb_15
+      - n_23.57M_16
+      - Relay_+|22.16Mb_17
+      - Relay_ |24.72Mb_18
+      - Relay_+|22.30Mb_19
+      - Relay_+|22.10Mb_20
+      - Relay_+|21.58Mb_21
+      - n_24.91M_22
+      - n_17.15M_23
+      - n_16.41M_24
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v1丨印度丨AZ丨隧道中转丨2_1
-      - v1丨印度丨隧道中转丨1_2
-      - v1丨台湾丨三网直连丨netflix.解锁_3
-      - v1丨台湾丨原生丨中台中继丨_4
-      - v1丨台湾丨原生丨静态_5
-      - v1丨新加坡丨微软丨AZ丨V2ray_6
-      - v1丨新加坡丨微软丨高速丨Netflix 解锁_7
-      - v1丨新加坡丨直连丨V2ray_8
-      - v1丨新加坡丨直连丨三网优化V2ray_9
-      - v1丨新加坡丨稳定丝滑丨V2ray_10
-      - v1丨日本丨微软丨东京丨V2ray_11
-      - v1丨日本丨微软丨大阪丨2丨V2ray_12
-      - v1丨澳大利亚丨隧道中转丨1丨V2ray_13
-      - v1丨澳大利亚丨隧道中转丨2丨_14
-      - v1丨美国丨原生丨三网优化丨V2ray_15
-      - v1丨美国丨微软丨优化高速丨V2ray_16
-      - v1丨韩国丨微软丨落地丨2丨V2ray_17
-      - v1丨韩国丨微软丨落地丨V2ray_18
-      - v1丨香港丨AZ丨2丨netflix解锁_19
-      - v1丨香港丨AZ丨直连丨V2ray_20
-      - v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21
-      - v1丨香港丨HKT  2丨_22
-      - v1丨香港丨HKT丨V2ray_23
-      - v1丨香港丨HKT丨三网优化_24
-      - v1丨香港丨HK丨V2ray_25
-      - v1丨香港丨微软丨1丨落地丨_26
-      - v1丨香港丨微软丨2丨落地_27
-      - v1丨香港丨微软丨2优化  Netflix 解锁_28
-      - v1丨香港丨微软丨AZ丨3_29
-      - v1丨香港丨微软丨优化  Netflix 解锁_30
-      - v1丨香港丨支持免流丨8080 端口_31
-      - v1丨香港丨支持免流丨80端口_32
-      - v1丨香港丨沪港中继丨HKT_33
-      - v1丨香港丨高速丨V2ray_34
-      - v1丨马来西亚丨原生丨直连_35
-      - 免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36
-      - 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37
+      - Pool_+|19.00Mb_1
+      - Pool_+|34.42Mb_2
+      - Pool_+|31.78Mb_3
+      - Relay_+|54.63Mb_4
+      - Relay_+|64.49Mb_5
+      - Pool_+|23.21Mb_6
+      - Relay_ |27.17Mb_7
+      - Relay_+|61.74Mb_8
+      - Relay_+|41.21Mb_9
+      - Relay_+|36.72Mb_10
+      - n_20.00M_11
+      - Pool_+|17.57Mb_12
+      - n_19.93M_13
+      - Relay_+|21.55Mb_14
+      - Relay_+|21.39Mb_15
+      - n_23.57M_16
+      - Relay_+|22.16Mb_17
+      - Relay_ |24.72Mb_18
+      - Relay_+|22.30Mb_19
+      - Relay_+|22.10Mb_20
+      - Relay_+|21.58Mb_21
+      - n_24.91M_22
+      - n_17.15M_23
+      - n_16.41M_24
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v1丨印度丨AZ丨隧道中转丨2_1
-      - v1丨印度丨隧道中转丨1_2
-      - v1丨台湾丨三网直连丨netflix.解锁_3
-      - v1丨台湾丨原生丨中台中继丨_4
-      - v1丨台湾丨原生丨静态_5
-      - v1丨新加坡丨微软丨AZ丨V2ray_6
-      - v1丨新加坡丨微软丨高速丨Netflix 解锁_7
-      - v1丨新加坡丨直连丨V2ray_8
-      - v1丨新加坡丨直连丨三网优化V2ray_9
-      - v1丨新加坡丨稳定丝滑丨V2ray_10
-      - v1丨日本丨微软丨东京丨V2ray_11
-      - v1丨日本丨微软丨大阪丨2丨V2ray_12
-      - v1丨澳大利亚丨隧道中转丨1丨V2ray_13
-      - v1丨澳大利亚丨隧道中转丨2丨_14
-      - v1丨美国丨原生丨三网优化丨V2ray_15
-      - v1丨美国丨微软丨优化高速丨V2ray_16
-      - v1丨韩国丨微软丨落地丨2丨V2ray_17
-      - v1丨韩国丨微软丨落地丨V2ray_18
-      - v1丨香港丨AZ丨2丨netflix解锁_19
-      - v1丨香港丨AZ丨直连丨V2ray_20
-      - v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21
-      - v1丨香港丨HKT  2丨_22
-      - v1丨香港丨HKT丨V2ray_23
-      - v1丨香港丨HKT丨三网优化_24
-      - v1丨香港丨HK丨V2ray_25
-      - v1丨香港丨微软丨1丨落地丨_26
-      - v1丨香港丨微软丨2丨落地_27
-      - v1丨香港丨微软丨2优化  Netflix 解锁_28
-      - v1丨香港丨微软丨AZ丨3_29
-      - v1丨香港丨微软丨优化  Netflix 解锁_30
-      - v1丨香港丨支持免流丨8080 端口_31
-      - v1丨香港丨支持免流丨80端口_32
-      - v1丨香港丨沪港中继丨HKT_33
-      - v1丨香港丨高速丨V2ray_34
-      - v1丨马来西亚丨原生丨直连_35
-      - 免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36
-      - 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37
+      - Pool_+|19.00Mb_1
+      - Pool_+|34.42Mb_2
+      - Pool_+|31.78Mb_3
+      - Relay_+|54.63Mb_4
+      - Relay_+|64.49Mb_5
+      - Pool_+|23.21Mb_6
+      - Relay_ |27.17Mb_7
+      - Relay_+|61.74Mb_8
+      - Relay_+|41.21Mb_9
+      - Relay_+|36.72Mb_10
+      - n_20.00M_11
+      - Pool_+|17.57Mb_12
+      - n_19.93M_13
+      - Relay_+|21.55Mb_14
+      - Relay_+|21.39Mb_15
+      - n_23.57M_16
+      - Relay_+|22.16Mb_17
+      - Relay_ |24.72Mb_18
+      - Relay_+|22.30Mb_19
+      - Relay_+|22.10Mb_20
+      - Relay_+|21.58Mb_21
+      - n_24.91M_22
+      - n_17.15M_23
+      - n_16.41M_24
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v1丨印度丨AZ丨隧道中转丨2_1
-      - v1丨印度丨隧道中转丨1_2
-      - v1丨台湾丨三网直连丨netflix.解锁_3
-      - v1丨台湾丨原生丨中台中继丨_4
-      - v1丨台湾丨原生丨静态_5
-      - v1丨新加坡丨微软丨AZ丨V2ray_6
-      - v1丨新加坡丨微软丨高速丨Netflix 解锁_7
-      - v1丨新加坡丨直连丨V2ray_8
-      - v1丨新加坡丨直连丨三网优化V2ray_9
-      - v1丨新加坡丨稳定丝滑丨V2ray_10
-      - v1丨日本丨微软丨东京丨V2ray_11
-      - v1丨日本丨微软丨大阪丨2丨V2ray_12
-      - v1丨澳大利亚丨隧道中转丨1丨V2ray_13
-      - v1丨澳大利亚丨隧道中转丨2丨_14
-      - v1丨美国丨原生丨三网优化丨V2ray_15
-      - v1丨美国丨微软丨优化高速丨V2ray_16
-      - v1丨韩国丨微软丨落地丨2丨V2ray_17
-      - v1丨韩国丨微软丨落地丨V2ray_18
-      - v1丨香港丨AZ丨2丨netflix解锁_19
-      - v1丨香港丨AZ丨直连丨V2ray_20
-      - v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21
-      - v1丨香港丨HKT  2丨_22
-      - v1丨香港丨HKT丨V2ray_23
-      - v1丨香港丨HKT丨三网优化_24
-      - v1丨香港丨HK丨V2ray_25
-      - v1丨香港丨微软丨1丨落地丨_26
-      - v1丨香港丨微软丨2丨落地_27
-      - v1丨香港丨微软丨2优化  Netflix 解锁_28
-      - v1丨香港丨微软丨AZ丨3_29
-      - v1丨香港丨微软丨优化  Netflix 解锁_30
-      - v1丨香港丨支持免流丨8080 端口_31
-      - v1丨香港丨支持免流丨80端口_32
-      - v1丨香港丨沪港中继丨HKT_33
-      - v1丨香港丨高速丨V2ray_34
-      - v1丨马来西亚丨原生丨直连_35
-      - 免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36
-      - 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37
+      - Pool_+|19.00Mb_1
+      - Pool_+|34.42Mb_2
+      - Pool_+|31.78Mb_3
+      - Relay_+|54.63Mb_4
+      - Relay_+|64.49Mb_5
+      - Pool_+|23.21Mb_6
+      - Relay_ |27.17Mb_7
+      - Relay_+|61.74Mb_8
+      - Relay_+|41.21Mb_9
+      - Relay_+|36.72Mb_10
+      - n_20.00M_11
+      - Pool_+|17.57Mb_12
+      - n_19.93M_13
+      - Relay_+|21.55Mb_14
+      - Relay_+|21.39Mb_15
+      - n_23.57M_16
+      - Relay_+|22.16Mb_17
+      - Relay_ |24.72Mb_18
+      - Relay_+|22.30Mb_19
+      - Relay_+|22.10Mb_20
+      - Relay_+|21.58Mb_21
+      - n_24.91M_22
+      - n_17.15M_23
+      - n_16.41M_24
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v1丨印度丨AZ丨隧道中转丨2_1
-      - v1丨印度丨隧道中转丨1_2
-      - v1丨台湾丨三网直连丨netflix.解锁_3
-      - v1丨台湾丨原生丨中台中继丨_4
-      - v1丨台湾丨原生丨静态_5
-      - v1丨新加坡丨微软丨AZ丨V2ray_6
-      - v1丨新加坡丨微软丨高速丨Netflix 解锁_7
-      - v1丨新加坡丨直连丨V2ray_8
-      - v1丨新加坡丨直连丨三网优化V2ray_9
-      - v1丨新加坡丨稳定丝滑丨V2ray_10
-      - v1丨日本丨微软丨东京丨V2ray_11
-      - v1丨日本丨微软丨大阪丨2丨V2ray_12
-      - v1丨澳大利亚丨隧道中转丨1丨V2ray_13
-      - v1丨澳大利亚丨隧道中转丨2丨_14
-      - v1丨美国丨原生丨三网优化丨V2ray_15
-      - v1丨美国丨微软丨优化高速丨V2ray_16
-      - v1丨韩国丨微软丨落地丨2丨V2ray_17
-      - v1丨韩国丨微软丨落地丨V2ray_18
-      - v1丨香港丨AZ丨2丨netflix解锁_19
-      - v1丨香港丨AZ丨直连丨V2ray_20
-      - v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21
-      - v1丨香港丨HKT  2丨_22
-      - v1丨香港丨HKT丨V2ray_23
-      - v1丨香港丨HKT丨三网优化_24
-      - v1丨香港丨HK丨V2ray_25
-      - v1丨香港丨微软丨1丨落地丨_26
-      - v1丨香港丨微软丨2丨落地_27
-      - v1丨香港丨微软丨2优化  Netflix 解锁_28
-      - v1丨香港丨微软丨AZ丨3_29
-      - v1丨香港丨微软丨优化  Netflix 解锁_30
-      - v1丨香港丨支持免流丨8080 端口_31
-      - v1丨香港丨支持免流丨80端口_32
-      - v1丨香港丨沪港中继丨HKT_33
-      - v1丨香港丨高速丨V2ray_34
-      - v1丨马来西亚丨原生丨直连_35
-      - 免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36
-      - 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37
+      - Pool_+|19.00Mb_1
+      - Pool_+|34.42Mb_2
+      - Pool_+|31.78Mb_3
+      - Relay_+|54.63Mb_4
+      - Relay_+|64.49Mb_5
+      - Pool_+|23.21Mb_6
+      - Relay_ |27.17Mb_7
+      - Relay_+|61.74Mb_8
+      - Relay_+|41.21Mb_9
+      - Relay_+|36.72Mb_10
+      - n_20.00M_11
+      - Pool_+|17.57Mb_12
+      - n_19.93M_13
+      - Relay_+|21.55Mb_14
+      - Relay_+|21.39Mb_15
+      - n_23.57M_16
+      - Relay_+|22.16Mb_17
+      - Relay_ |24.72Mb_18
+      - Relay_+|22.30Mb_19
+      - Relay_+|22.10Mb_20
+      - Relay_+|21.58Mb_21
+      - n_24.91M_22
+      - n_17.15M_23
+      - n_16.41M_24
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v1丨印度丨AZ丨隧道中转丨2_1
-      - v1丨印度丨隧道中转丨1_2
-      - v1丨台湾丨三网直连丨netflix.解锁_3
-      - v1丨台湾丨原生丨中台中继丨_4
-      - v1丨台湾丨原生丨静态_5
-      - v1丨新加坡丨微软丨AZ丨V2ray_6
-      - v1丨新加坡丨微软丨高速丨Netflix 解锁_7
-      - v1丨新加坡丨直连丨V2ray_8
-      - v1丨新加坡丨直连丨三网优化V2ray_9
-      - v1丨新加坡丨稳定丝滑丨V2ray_10
-      - v1丨日本丨微软丨东京丨V2ray_11
-      - v1丨日本丨微软丨大阪丨2丨V2ray_12
-      - v1丨澳大利亚丨隧道中转丨1丨V2ray_13
-      - v1丨澳大利亚丨隧道中转丨2丨_14
-      - v1丨美国丨原生丨三网优化丨V2ray_15
-      - v1丨美国丨微软丨优化高速丨V2ray_16
-      - v1丨韩国丨微软丨落地丨2丨V2ray_17
-      - v1丨韩国丨微软丨落地丨V2ray_18
-      - v1丨香港丨AZ丨2丨netflix解锁_19
-      - v1丨香港丨AZ丨直连丨V2ray_20
-      - v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21
-      - v1丨香港丨HKT  2丨_22
-      - v1丨香港丨HKT丨V2ray_23
-      - v1丨香港丨HKT丨三网优化_24
-      - v1丨香港丨HK丨V2ray_25
-      - v1丨香港丨微软丨1丨落地丨_26
-      - v1丨香港丨微软丨2丨落地_27
-      - v1丨香港丨微软丨2优化  Netflix 解锁_28
-      - v1丨香港丨微软丨AZ丨3_29
-      - v1丨香港丨微软丨优化  Netflix 解锁_30
-      - v1丨香港丨支持免流丨8080 端口_31
-      - v1丨香港丨支持免流丨80端口_32
-      - v1丨香港丨沪港中继丨HKT_33
-      - v1丨香港丨高速丨V2ray_34
-      - v1丨马来西亚丨原生丨直连_35
-      - 免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36
-      - 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37
+      - Pool_+|19.00Mb_1
+      - Pool_+|34.42Mb_2
+      - Pool_+|31.78Mb_3
+      - Relay_+|54.63Mb_4
+      - Relay_+|64.49Mb_5
+      - Pool_+|23.21Mb_6
+      - Relay_ |27.17Mb_7
+      - Relay_+|61.74Mb_8
+      - Relay_+|41.21Mb_9
+      - Relay_+|36.72Mb_10
+      - n_20.00M_11
+      - Pool_+|17.57Mb_12
+      - n_19.93M_13
+      - Relay_+|21.55Mb_14
+      - Relay_+|21.39Mb_15
+      - n_23.57M_16
+      - Relay_+|22.16Mb_17
+      - Relay_ |24.72Mb_18
+      - Relay_+|22.30Mb_19
+      - Relay_+|22.10Mb_20
+      - Relay_+|21.58Mb_21
+      - n_24.91M_22
+      - n_17.15M_23
+      - n_16.41M_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -354,43 +250,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v1丨印度丨AZ丨隧道中转丨2_1
-      - v1丨印度丨隧道中转丨1_2
-      - v1丨台湾丨三网直连丨netflix.解锁_3
-      - v1丨台湾丨原生丨中台中继丨_4
-      - v1丨台湾丨原生丨静态_5
-      - v1丨新加坡丨微软丨AZ丨V2ray_6
-      - v1丨新加坡丨微软丨高速丨Netflix 解锁_7
-      - v1丨新加坡丨直连丨V2ray_8
-      - v1丨新加坡丨直连丨三网优化V2ray_9
-      - v1丨新加坡丨稳定丝滑丨V2ray_10
-      - v1丨日本丨微软丨东京丨V2ray_11
-      - v1丨日本丨微软丨大阪丨2丨V2ray_12
-      - v1丨澳大利亚丨隧道中转丨1丨V2ray_13
-      - v1丨澳大利亚丨隧道中转丨2丨_14
-      - v1丨美国丨原生丨三网优化丨V2ray_15
-      - v1丨美国丨微软丨优化高速丨V2ray_16
-      - v1丨韩国丨微软丨落地丨2丨V2ray_17
-      - v1丨韩国丨微软丨落地丨V2ray_18
-      - v1丨香港丨AZ丨2丨netflix解锁_19
-      - v1丨香港丨AZ丨直连丨V2ray_20
-      - v1丨香港丨AZ丨连我丨速度超快丨netflix解锁_21
-      - v1丨香港丨HKT  2丨_22
-      - v1丨香港丨HKT丨V2ray_23
-      - v1丨香港丨HKT丨三网优化_24
-      - v1丨香港丨HK丨V2ray_25
-      - v1丨香港丨微软丨1丨落地丨_26
-      - v1丨香港丨微软丨2丨落地_27
-      - v1丨香港丨微软丨2优化  Netflix 解锁_28
-      - v1丨香港丨微软丨AZ丨3_29
-      - v1丨香港丨微软丨优化  Netflix 解锁_30
-      - v1丨香港丨支持免流丨8080 端口_31
-      - v1丨香港丨支持免流丨80端口_32
-      - v1丨香港丨沪港中继丨HKT_33
-      - v1丨香港丨高速丨V2ray_34
-      - v1丨马来西亚丨原生丨直连_35
-      - 免费丨新加坡丨2丨速云丨yooo.me丨每天更新订阅  更多高速线路请购买套餐_36
-      - 免费丨香港丨1丨速云丨yooo.me丨每天更新订阅 更多高速线路请购买套餐_37
+      - Pool_+|19.00Mb_1
+      - Pool_+|34.42Mb_2
+      - Pool_+|31.78Mb_3
+      - Relay_+|54.63Mb_4
+      - Relay_+|64.49Mb_5
+      - Pool_+|23.21Mb_6
+      - Relay_ |27.17Mb_7
+      - Relay_+|61.74Mb_8
+      - Relay_+|41.21Mb_9
+      - Relay_+|36.72Mb_10
+      - n_20.00M_11
+      - Pool_+|17.57Mb_12
+      - n_19.93M_13
+      - Relay_+|21.55Mb_14
+      - Relay_+|21.39Mb_15
+      - n_23.57M_16
+      - Relay_+|22.16Mb_17
+      - Relay_ |24.72Mb_18
+      - Relay_+|22.30Mb_19
+      - Relay_+|22.10Mb_20
+      - Relay_+|21.58Mb_21
+      - n_24.91M_22
+      - n_17.15M_23
+      - n_16.41M_24
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
