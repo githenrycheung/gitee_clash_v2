@@ -5,71 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |64.49Mb, server: 211.99.96.16, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: Relay_ |61.74Mb, server: 211.99.96.13, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: Relay_ |27.17Mb, server: shcn2-06b.iplc188.com, port: 10001, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|19.93Mb", server: 72.167.45.6, port: 443, type: trojan, password: 36ebef7d1b1d6205fd0c55f28800e674, skip-cert-verify: true, udp: true}
-  - {name: "|20.01Mb", server: 72.167.45.6, port: 443, type: trojan, password: a3fa58b581353bb375d2ddad0f327938, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |36.72Mb, server: fuck.biubiubiu.cloud, port: 443, type: trojan, password: B4iK9pXaRnHfr9Rp, sni: fuck.biubiubiu.cloud, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |22.10Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |22.16Mb, server: t3.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |21.58Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: 1c356475-9d2e-4b35-b05a-95517756e7a5, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |22.30Mb, server: t4.ssrsub.com, port: 156, type: trojan, password: e6c36d58-6070-4b55-a437-146e6b53ec57, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |54.63Mb, server: 211.99.96.15, port: 17852, type: ss, cipher: xchacha20-ietf-poly1305, password: 25rmp7CQ, udp: true}
-  - {name: "|18.61Mb", server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: v1丨印度丨AZ丨隧道中转丨2, server: yooo.xiaobaigou.cc, port: 1004, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨微软丨2丨落地, server: xgwr13.xiaobaigou.cc, port: 2001, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xgwr13.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨支持免流丨8080 端口, server: suyun13.xiaobaigou.cc, port: 8080, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: suyun13.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨微软丨1丨落地丨, server: xgwr15.xiaobaigou.cc, port: 2002, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xgwr15.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨越南丨港越中转丨3, server: yooo.xiaobaigou.cc, port: 1000, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨微软丨AZ丨3, server: xgwr21.xiaobaigou.cc, port: 2000, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xgwr21.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨泰国丨隧道中转丨1丨V2ray, server: yooo.xiaobaigou.cc, port: 1003, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨泰国丨隧道中转丨2丨萨瓦迪卡, server: yooo.xiaobaigou.cc, port: 1002, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨美国丨隧道中转丨解锁流媒体1, server: yooo.xiaobaigou.cc, port: 1006, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨美国丨隧道中转丨解锁流媒体2, server: yooo.xiaobaigou.cc, port: 1007, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨美国丨原生丨三网优化丨V2ray, server: yooo.xiaobaigou.cc, port: 1008, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨印度丨隧道中转丨1, server: yooo.xiaobaigou.cc, port: 1005, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨马来西亚丨原生丨直连, server: yooo.xiaobaigou.cc, port: 1001, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |64.49Mb
-      - Relay_ |61.74Mb
-      - Relay_ |27.17Mb
-      - "|19.93Mb"
-      - "|20.01Mb"
-      - Relay_ |36.72Mb
-      - Relay_ |22.10Mb
-      - Relay_ |22.16Mb
-      - Relay_ |21.58Mb
-      - Relay_ |22.30Mb
-      - Relay_ |54.63Mb
-      - "|18.61Mb"
+      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
+      - v1丨泰国丨隧道中转丨1丨V2ray
+      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
+      - v1丨美国丨隧道中转丨解锁流媒体1
+      - v1丨美国丨隧道中转丨解锁流媒体2
+      - v1丨美国丨原生丨三网优化丨V2ray
+      - v1丨印度丨隧道中转丨1
+      - v1丨马来西亚丨原生丨直连
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |64.49Mb
-      - Relay_ |61.74Mb
-      - Relay_ |27.17Mb
-      - "|19.93Mb"
-      - "|20.01Mb"
-      - Relay_ |36.72Mb
-      - Relay_ |22.10Mb
-      - Relay_ |22.16Mb
-      - Relay_ |21.58Mb
-      - Relay_ |22.30Mb
-      - Relay_ |54.63Mb
-      - "|18.61Mb"
+      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
+      - v1丨泰国丨隧道中转丨1丨V2ray
+      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
+      - v1丨美国丨隧道中转丨解锁流媒体1
+      - v1丨美国丨隧道中转丨解锁流媒体2
+      - v1丨美国丨原生丨三网优化丨V2ray
+      - v1丨印度丨隧道中转丨1
+      - v1丨马来西亚丨原生丨直连
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |64.49Mb
-      - Relay_ |61.74Mb
-      - Relay_ |27.17Mb
-      - "|19.93Mb"
-      - "|20.01Mb"
-      - Relay_ |36.72Mb
-      - Relay_ |22.10Mb
-      - Relay_ |22.16Mb
-      - Relay_ |21.58Mb
-      - Relay_ |22.30Mb
-      - Relay_ |54.63Mb
-      - "|18.61Mb"
+      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
+      - v1丨泰国丨隧道中转丨1丨V2ray
+      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
+      - v1丨美国丨隧道中转丨解锁流媒体1
+      - v1丨美国丨隧道中转丨解锁流媒体2
+      - v1丨美国丨原生丨三网优化丨V2ray
+      - v1丨印度丨隧道中转丨1
+      - v1丨马来西亚丨原生丨直连
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -88,75 +92,84 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |64.49Mb
-      - Relay_ |61.74Mb
-      - Relay_ |27.17Mb
-      - "|19.93Mb"
-      - "|20.01Mb"
-      - Relay_ |36.72Mb
-      - Relay_ |22.10Mb
-      - Relay_ |22.16Mb
-      - Relay_ |21.58Mb
-      - Relay_ |22.30Mb
-      - Relay_ |54.63Mb
-      - "|18.61Mb"
+      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
+      - v1丨泰国丨隧道中转丨1丨V2ray
+      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
+      - v1丨美国丨隧道中转丨解锁流媒体1
+      - v1丨美国丨隧道中转丨解锁流媒体2
+      - v1丨美国丨原生丨三网优化丨V2ray
+      - v1丨印度丨隧道中转丨1
+      - v1丨马来西亚丨原生丨直连
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |64.49Mb
-      - Relay_ |61.74Mb
-      - Relay_ |27.17Mb
-      - "|19.93Mb"
-      - "|20.01Mb"
-      - Relay_ |36.72Mb
-      - Relay_ |22.10Mb
-      - Relay_ |22.16Mb
-      - Relay_ |21.58Mb
-      - Relay_ |22.30Mb
-      - Relay_ |54.63Mb
-      - "|18.61Mb"
+      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
+      - v1丨泰国丨隧道中转丨1丨V2ray
+      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
+      - v1丨美国丨隧道中转丨解锁流媒体1
+      - v1丨美国丨隧道中转丨解锁流媒体2
+      - v1丨美国丨原生丨三网优化丨V2ray
+      - v1丨印度丨隧道中转丨1
+      - v1丨马来西亚丨原生丨直连
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |64.49Mb
-      - Relay_ |61.74Mb
-      - Relay_ |27.17Mb
-      - "|19.93Mb"
-      - "|20.01Mb"
-      - Relay_ |36.72Mb
-      - Relay_ |22.10Mb
-      - Relay_ |22.16Mb
-      - Relay_ |21.58Mb
-      - Relay_ |22.30Mb
-      - Relay_ |54.63Mb
-      - "|18.61Mb"
+      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
+      - v1丨泰国丨隧道中转丨1丨V2ray
+      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
+      - v1丨美国丨隧道中转丨解锁流媒体1
+      - v1丨美国丨隧道中转丨解锁流媒体2
+      - v1丨美国丨原生丨三网优化丨V2ray
+      - v1丨印度丨隧道中转丨1
+      - v1丨马来西亚丨原生丨直连
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |64.49Mb
-      - Relay_ |61.74Mb
-      - Relay_ |27.17Mb
-      - "|19.93Mb"
-      - "|20.01Mb"
-      - Relay_ |36.72Mb
-      - Relay_ |22.10Mb
-      - Relay_ |22.16Mb
-      - Relay_ |21.58Mb
-      - Relay_ |22.30Mb
-      - Relay_ |54.63Mb
-      - "|18.61Mb"
+      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
+      - v1丨泰国丨隧道中转丨1丨V2ray
+      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
+      - v1丨美国丨隧道中转丨解锁流媒体1
+      - v1丨美国丨隧道中转丨解锁流媒体2
+      - v1丨美国丨原生丨三网优化丨V2ray
+      - v1丨印度丨隧道中转丨1
+      - v1丨马来西亚丨原生丨直连
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,18 +185,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |64.49Mb
-      - Relay_ |61.74Mb
-      - Relay_ |27.17Mb
-      - "|19.93Mb"
-      - "|20.01Mb"
-      - Relay_ |36.72Mb
-      - Relay_ |22.10Mb
-      - Relay_ |22.16Mb
-      - Relay_ |21.58Mb
-      - Relay_ |22.30Mb
-      - Relay_ |54.63Mb
-      - "|18.61Mb"
+      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨香港丨微软丨2丨落地
+      - v1丨香港丨支持免流丨8080 端口
+      - v1丨香港丨微软丨1丨落地丨
+      - v1丨越南丨港越中转丨3
+      - v1丨香港丨微软丨AZ丨3
+      - v1丨泰国丨隧道中转丨1丨V2ray
+      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
+      - v1丨美国丨隧道中转丨解锁流媒体1
+      - v1丨美国丨隧道中转丨解锁流媒体2
+      - v1丨美国丨原生丨三网优化丨V2ray
+      - v1丨印度丨隧道中转丨1
+      - v1丨马来西亚丨原生丨直连
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
