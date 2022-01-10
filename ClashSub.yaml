@@ -5,75 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v1丨印度丨AZ丨隧道中转丨2, server: yooo.xiaobaigou.cc, port: 1004, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨日本丨微软丨东京丨V2ray, server: rbwr15.xiaobaigou.cc, port: 3421, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: rbwr15.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨日本丨微软丨大阪丨2丨V2ray, server: rbwr015.xiaobaigou.cc, port: 443, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: rbwr015.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨新加坡丨所有线路均解锁流媒体丨Trojan, server: suyun1.xiaobaigou.cc, port: 10721, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: suyun1.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨新加坡丨直连丨无法使用Trojan请更换客户端, server: susu2.xiaobaigou.cc, port: 10726, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: susu2.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨新加坡丨微软丨高速丨1Gbps, server: xpwr2.xiaobaigou.cc, port: 10723, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xpwr2.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨新加坡丨微软.   1Gbps, server: xgwr65.xiaobaigou.cc, port: 10722, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xgwr65.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨越南丨港越中转丨1, server: yooo.xiaobaigou.cc, port: 56020, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨微软丨优化  Netflix 解锁, server: xgwr27.xiaobaigou.cc, port: 31952, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xgwr27.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨HKT  2丨, server: suyun13.xiaobaigou.cc, port: 60019, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: suyun13.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨越南丨港越中转丨2, server: yooo.xiaobaigou.cc, port: 56021, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
   - {name: v1丨香港丨微软丨2丨落地, server: xgwr13.xiaobaigou.cc, port: 2001, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xgwr13.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨支持免流丨8080 端口, server: suyun13.xiaobaigou.cc, port: 8080, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: suyun13.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨香港丨微软丨1丨落地丨, server: xgwr15.xiaobaigou.cc, port: 2002, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xgwr15.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨越南丨港越中转丨3, server: yooo.xiaobaigou.cc, port: 1000, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
+  - {name: v1丨香港丨优化丨1Gbps, server: suyun18.xiaobaigou.cc, port: 443, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: suyun18.xiaobaigou.cc, skip-cert-verify: true, udp: true}
   - {name: v1丨香港丨微软丨AZ丨3, server: xgwr21.xiaobaigou.cc, port: 2000, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: xgwr21.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨泰国丨隧道中转丨1丨V2ray, server: yooo.xiaobaigou.cc, port: 1003, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨泰国丨隧道中转丨2丨萨瓦迪卡, server: yooo.xiaobaigou.cc, port: 1002, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨美国丨隧道中转丨解锁流媒体1, server: yooo.xiaobaigou.cc, port: 1006, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨美国丨隧道中转丨解锁流媒体2, server: yooo.xiaobaigou.cc, port: 1007, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨美国丨原生丨三网优化丨V2ray, server: yooo.xiaobaigou.cc, port: 1008, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨印度丨隧道中转丨1, server: yooo.xiaobaigou.cc, port: 1005, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
-  - {name: v1丨马来西亚丨原生丨直连, server: yooo.xiaobaigou.cc, port: 1001, type: trojan, password: 541e113e-73c8-3eb6-91e1-70a93915a488, sni: yooo.xiaobaigou.cc, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨日本丨微软丨东京丨V2ray
+      - v1丨日本丨微软丨大阪丨2丨V2ray
+      - v1丨新加坡丨所有线路均解锁流媒体丨Trojan
+      - v1丨新加坡丨直连丨无法使用Trojan请更换客户端
+      - v1丨新加坡丨微软丨高速丨1Gbps
+      - v1丨新加坡丨微软.   1Gbps
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
-      - v1丨泰国丨隧道中转丨1丨V2ray
-      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
-      - v1丨美国丨隧道中转丨解锁流媒体1
-      - v1丨美国丨隧道中转丨解锁流媒体2
-      - v1丨美国丨原生丨三网优化丨V2ray
-      - v1丨印度丨隧道中转丨1
-      - v1丨马来西亚丨原生丨直连
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨日本丨微软丨东京丨V2ray
+      - v1丨日本丨微软丨大阪丨2丨V2ray
+      - v1丨新加坡丨所有线路均解锁流媒体丨Trojan
+      - v1丨新加坡丨直连丨无法使用Trojan请更换客户端
+      - v1丨新加坡丨微软丨高速丨1Gbps
+      - v1丨新加坡丨微软.   1Gbps
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
-      - v1丨泰国丨隧道中转丨1丨V2ray
-      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
-      - v1丨美国丨隧道中转丨解锁流媒体1
-      - v1丨美国丨隧道中转丨解锁流媒体2
-      - v1丨美国丨原生丨三网优化丨V2ray
-      - v1丨印度丨隧道中转丨1
-      - v1丨马来西亚丨原生丨直连
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨日本丨微软丨东京丨V2ray
+      - v1丨日本丨微软丨大阪丨2丨V2ray
+      - v1丨新加坡丨所有线路均解锁流媒体丨Trojan
+      - v1丨新加坡丨直连丨无法使用Trojan请更换客户端
+      - v1丨新加坡丨微软丨高速丨1Gbps
+      - v1丨新加坡丨微软.   1Gbps
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
-      - v1丨泰国丨隧道中转丨1丨V2ray
-      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
-      - v1丨美国丨隧道中转丨解锁流媒体1
-      - v1丨美国丨隧道中转丨解锁流媒体2
-      - v1丨美国丨原生丨三网优化丨V2ray
-      - v1丨印度丨隧道中转丨1
-      - v1丨马来西亚丨原生丨直连
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -92,27 +92,29 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨日本丨微软丨东京丨V2ray
+      - v1丨日本丨微软丨大阪丨2丨V2ray
+      - v1丨新加坡丨所有线路均解锁流媒体丨Trojan
+      - v1丨新加坡丨直连丨无法使用Trojan请更换客户端
+      - v1丨新加坡丨微软丨高速丨1Gbps
+      - v1丨新加坡丨微软.   1Gbps
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
-      - v1丨泰国丨隧道中转丨1丨V2ray
-      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
-      - v1丨美国丨隧道中转丨解锁流媒体1
-      - v1丨美国丨隧道中转丨解锁流媒体2
-      - v1丨美国丨原生丨三网优化丨V2ray
-      - v1丨印度丨隧道中转丨1
-      - v1丨马来西亚丨原生丨直连
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
@@ -120,56 +122,56 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨日本丨微软丨东京丨V2ray
+      - v1丨日本丨微软丨大阪丨2丨V2ray
+      - v1丨新加坡丨所有线路均解锁流媒体丨Trojan
+      - v1丨新加坡丨直连丨无法使用Trojan请更换客户端
+      - v1丨新加坡丨微软丨高速丨1Gbps
+      - v1丨新加坡丨微软.   1Gbps
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
-      - v1丨泰国丨隧道中转丨1丨V2ray
-      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
-      - v1丨美国丨隧道中转丨解锁流媒体1
-      - v1丨美国丨隧道中转丨解锁流媒体2
-      - v1丨美国丨原生丨三网优化丨V2ray
-      - v1丨印度丨隧道中转丨1
-      - v1丨马来西亚丨原生丨直连
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨日本丨微软丨东京丨V2ray
+      - v1丨日本丨微软丨大阪丨2丨V2ray
+      - v1丨新加坡丨所有线路均解锁流媒体丨Trojan
+      - v1丨新加坡丨直连丨无法使用Trojan请更换客户端
+      - v1丨新加坡丨微软丨高速丨1Gbps
+      - v1丨新加坡丨微软.   1Gbps
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
-      - v1丨泰国丨隧道中转丨1丨V2ray
-      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
-      - v1丨美国丨隧道中转丨解锁流媒体1
-      - v1丨美国丨隧道中转丨解锁流媒体2
-      - v1丨美国丨原生丨三网优化丨V2ray
-      - v1丨印度丨隧道中转丨1
-      - v1丨马来西亚丨原生丨直连
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨日本丨微软丨东京丨V2ray
+      - v1丨日本丨微软丨大阪丨2丨V2ray
+      - v1丨新加坡丨所有线路均解锁流媒体丨Trojan
+      - v1丨新加坡丨直连丨无法使用Trojan请更换客户端
+      - v1丨新加坡丨微软丨高速丨1Gbps
+      - v1丨新加坡丨微软.   1Gbps
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
-      - v1丨泰国丨隧道中转丨1丨V2ray
-      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
-      - v1丨美国丨隧道中转丨解锁流媒体1
-      - v1丨美国丨隧道中转丨解锁流媒体2
-      - v1丨美国丨原生丨三网优化丨V2ray
-      - v1丨印度丨隧道中转丨1
-      - v1丨马来西亚丨原生丨直连
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -185,19 +187,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - v1丨印度丨AZ丨隧道中转丨2
+      - v1丨日本丨微软丨东京丨V2ray
+      - v1丨日本丨微软丨大阪丨2丨V2ray
+      - v1丨新加坡丨所有线路均解锁流媒体丨Trojan
+      - v1丨新加坡丨直连丨无法使用Trojan请更换客户端
+      - v1丨新加坡丨微软丨高速丨1Gbps
+      - v1丨新加坡丨微软.   1Gbps
+      - v1丨越南丨港越中转丨1
+      - v1丨香港丨微软丨优化  Netflix 解锁
+      - v1丨香港丨HKT  2丨
+      - v1丨越南丨港越中转丨2
       - v1丨香港丨微软丨2丨落地
-      - v1丨香港丨支持免流丨8080 端口
-      - v1丨香港丨微软丨1丨落地丨
-      - v1丨越南丨港越中转丨3
+      - v1丨香港丨优化丨1Gbps
       - v1丨香港丨微软丨AZ丨3
-      - v1丨泰国丨隧道中转丨1丨V2ray
-      - v1丨泰国丨隧道中转丨2丨萨瓦迪卡
-      - v1丨美国丨隧道中转丨解锁流媒体1
-      - v1丨美国丨隧道中转丨解锁流媒体2
-      - v1丨美国丨原生丨三网优化丨V2ray
-      - v1丨印度丨隧道中转丨1
-      - v1丨马来西亚丨原生丨直连
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
