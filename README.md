@@ -13,7 +13,7 @@
 | https://www.jafiyun.fun/auth/register                        |
 | https://kakayun.xyz/auth/register                            |
 | https://www.wogg.me/auth/register (https://www.wogg.vip/auth/register) |
-| https://www.sufeiyun.xyz/auth/register                       |
+| https://www.sufeiyun.xyz/auth/register (https://www.sufeiyun.win)                      |
 | https://cyooo.co/auth/register  (https://ooolooo.vip)        |
 | https://www.recear.com                                       |
 | https://www.javayun.cyou/auth/register                       |
