@@ -19,7 +19,8 @@
 | https://www.javayun.cyou/auth/register                       |
 | https://xniuniu.top/auth/register                            |
 | https://yooo.me/auth/login                                   |
-| https://www.viyun.pw/auth/register
+| https://www.viyun.pw/auth/register						   |
+| https://www.paopaoyun.fun/auth/register					   |
 
 ## 仿造Gmail临时邮箱：
 
