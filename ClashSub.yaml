@@ -5,103 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _495 |19.42Mb, server: 218.190.242.130, port: 443, type: trojan, password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia, skip-cert-verify: true, udp: true}
-  - {name: "|20.38Mb", server: 38.75.137.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _1092+|18.61Mb, server: 38.75.137.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|27.64Mb", server: 172.99.190.188, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|26.98Mb", server: 172.99.190.188, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|27.79Mb", server: 149.202.82.172, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|29.65Mb", server: 172.99.190.39, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|28.18Mb", server: 172.99.190.39, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _2304+|19.50Mb, server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|23.23Mb", server: 172.99.190.205, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|26.61Mb", server: 145.239.1.100, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|27.96Mb", server: 145.239.1.100, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: _2201+|19.86Mb, server: 134.195.196.184, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _2213+|19.68Mb, server: 134.195.196.184, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _317+|16.91Mb, server: 149.202.82.172, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _2198+|19.85Mb, server: 134.195.196.184, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _2492+|19.71Mb, server: 134.195.196.184, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _1912+|16.93Mb, server: 172.99.190.39, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|28.68Mb", server: 172.99.190.188, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _2398+|19.70Mb, server: 134.195.196.184, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2235 |14.60Mb, server: 38.75.136.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US |16.67Mb, server: 38.75.136.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_2234 | 9.40Mb, server: 38.75.136.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: FR |28.30Mb, server: 51.68.205.180, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US |15.72Mb, server: 38.75.136.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_2016 |14.69Mb, server: 38.75.136.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US |15.81Mb, server: 38.75.136.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_2075 |14.70Mb, server: 38.75.136.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_2233 | 9.25Mb, server: 38.75.136.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_2081 | 8.80Mb, server: 38.75.136.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US |17.67Mb, server: 38.75.136.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1996 |10.53Mb, server: 38.75.136.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_2203 |13.71Mb, server: 38.75.136.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _495 |19.42Mb
-      - "|20.38Mb"
-      - _1092+|18.61Mb
-      - "|27.64Mb"
-      - "|26.98Mb"
-      - "|27.79Mb"
-      - "|29.65Mb"
-      - "|28.18Mb"
-      - _2304+|19.50Mb
-      - "|23.23Mb"
-      - "|26.61Mb"
-      - "|27.96Mb"
-      - _2201+|19.86Mb
-      - _2213+|19.68Mb
-      - _317+|16.91Mb
-      - _2198+|19.85Mb
-      - _2492+|19.71Mb
-      - _1912+|16.93Mb
-      - "|28.68Mb"
-      - _2398+|19.70Mb
+      - US_2235 |14.60Mb
+      - US |16.67Mb
+      - US_2234 | 9.40Mb
+      - FR |28.30Mb
+      - US |15.72Mb
+      - US_2016 |14.69Mb
+      - US |15.81Mb
+      - US_2075 |14.70Mb
+      - US_2233 | 9.25Mb
+      - US_2081 | 8.80Mb
+      - US |17.67Mb
+      - US_1996 |10.53Mb
+      - US_2203 |13.71Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - _495 |19.42Mb
-      - "|20.38Mb"
-      - _1092+|18.61Mb
-      - "|27.64Mb"
-      - "|26.98Mb"
-      - "|27.79Mb"
-      - "|29.65Mb"
-      - "|28.18Mb"
-      - _2304+|19.50Mb
-      - "|23.23Mb"
-      - "|26.61Mb"
-      - "|27.96Mb"
-      - _2201+|19.86Mb
-      - _2213+|19.68Mb
-      - _317+|16.91Mb
-      - _2198+|19.85Mb
-      - _2492+|19.71Mb
-      - _1912+|16.93Mb
-      - "|28.68Mb"
-      - _2398+|19.70Mb
+      - US_2235 |14.60Mb
+      - US |16.67Mb
+      - US_2234 | 9.40Mb
+      - FR |28.30Mb
+      - US |15.72Mb
+      - US_2016 |14.69Mb
+      - US |15.81Mb
+      - US_2075 |14.70Mb
+      - US_2233 | 9.25Mb
+      - US_2081 | 8.80Mb
+      - US |17.67Mb
+      - US_1996 |10.53Mb
+      - US_2203 |13.71Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _495 |19.42Mb
-      - "|20.38Mb"
-      - _1092+|18.61Mb
-      - "|27.64Mb"
-      - "|26.98Mb"
-      - "|27.79Mb"
-      - "|29.65Mb"
-      - "|28.18Mb"
-      - _2304+|19.50Mb
-      - "|23.23Mb"
-      - "|26.61Mb"
-      - "|27.96Mb"
-      - _2201+|19.86Mb
-      - _2213+|19.68Mb
-      - _317+|16.91Mb
-      - _2198+|19.85Mb
-      - _2492+|19.71Mb
-      - _1912+|16.93Mb
-      - "|28.68Mb"
-      - _2398+|19.70Mb
+      - US_2235 |14.60Mb
+      - US |16.67Mb
+      - US_2234 | 9.40Mb
+      - FR |28.30Mb
+      - US |15.72Mb
+      - US_2016 |14.69Mb
+      - US |15.81Mb
+      - US_2075 |14.70Mb
+      - US_2233 | 9.25Mb
+      - US_2081 | 8.80Mb
+      - US |17.67Mb
+      - US_1996 |10.53Mb
+      - US_2203 |13.71Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,26 +92,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _495 |19.42Mb
-      - "|20.38Mb"
-      - _1092+|18.61Mb
-      - "|27.64Mb"
-      - "|26.98Mb"
-      - "|27.79Mb"
-      - "|29.65Mb"
-      - "|28.18Mb"
-      - _2304+|19.50Mb
-      - "|23.23Mb"
-      - "|26.61Mb"
-      - "|27.96Mb"
-      - _2201+|19.86Mb
-      - _2213+|19.68Mb
-      - _317+|16.91Mb
-      - _2198+|19.85Mb
-      - _2492+|19.71Mb
-      - _1912+|16.93Mb
-      - "|28.68Mb"
-      - _2398+|19.70Mb
+      - US_2235 |14.60Mb
+      - US |16.67Mb
+      - US_2234 | 9.40Mb
+      - FR |28.30Mb
+      - US |15.72Mb
+      - US_2016 |14.69Mb
+      - US |15.81Mb
+      - US_2075 |14.70Mb
+      - US_2233 | 9.25Mb
+      - US_2081 | 8.80Mb
+      - US |17.67Mb
+      - US_1996 |10.53Mb
+      - US_2203 |13.71Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -150,77 +115,56 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - _495 |19.42Mb
-      - "|20.38Mb"
-      - _1092+|18.61Mb
-      - "|27.64Mb"
-      - "|26.98Mb"
-      - "|27.79Mb"
-      - "|29.65Mb"
-      - "|28.18Mb"
-      - _2304+|19.50Mb
-      - "|23.23Mb"
-      - "|26.61Mb"
-      - "|27.96Mb"
-      - _2201+|19.86Mb
-      - _2213+|19.68Mb
-      - _317+|16.91Mb
-      - _2198+|19.85Mb
-      - _2492+|19.71Mb
-      - _1912+|16.93Mb
-      - "|28.68Mb"
-      - _2398+|19.70Mb
+      - US_2235 |14.60Mb
+      - US |16.67Mb
+      - US_2234 | 9.40Mb
+      - FR |28.30Mb
+      - US |15.72Mb
+      - US_2016 |14.69Mb
+      - US |15.81Mb
+      - US_2075 |14.70Mb
+      - US_2233 | 9.25Mb
+      - US_2081 | 8.80Mb
+      - US |17.67Mb
+      - US_1996 |10.53Mb
+      - US_2203 |13.71Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - _495 |19.42Mb
-      - "|20.38Mb"
-      - _1092+|18.61Mb
-      - "|27.64Mb"
-      - "|26.98Mb"
-      - "|27.79Mb"
-      - "|29.65Mb"
-      - "|28.18Mb"
-      - _2304+|19.50Mb
-      - "|23.23Mb"
-      - "|26.61Mb"
-      - "|27.96Mb"
-      - _2201+|19.86Mb
-      - _2213+|19.68Mb
-      - _317+|16.91Mb
-      - _2198+|19.85Mb
-      - _2492+|19.71Mb
-      - _1912+|16.93Mb
-      - "|28.68Mb"
-      - _2398+|19.70Mb
+      - US_2235 |14.60Mb
+      - US |16.67Mb
+      - US_2234 | 9.40Mb
+      - FR |28.30Mb
+      - US |15.72Mb
+      - US_2016 |14.69Mb
+      - US |15.81Mb
+      - US_2075 |14.70Mb
+      - US_2233 | 9.25Mb
+      - US_2081 | 8.80Mb
+      - US |17.67Mb
+      - US_1996 |10.53Mb
+      - US_2203 |13.71Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _495 |19.42Mb
-      - "|20.38Mb"
-      - _1092+|18.61Mb
-      - "|27.64Mb"
-      - "|26.98Mb"
-      - "|27.79Mb"
-      - "|29.65Mb"
-      - "|28.18Mb"
-      - _2304+|19.50Mb
-      - "|23.23Mb"
-      - "|26.61Mb"
-      - "|27.96Mb"
-      - _2201+|19.86Mb
-      - _2213+|19.68Mb
-      - _317+|16.91Mb
-      - _2198+|19.85Mb
-      - _2492+|19.71Mb
-      - _1912+|16.93Mb
-      - "|28.68Mb"
-      - _2398+|19.70Mb
+      - US_2235 |14.60Mb
+      - US |16.67Mb
+      - US_2234 | 9.40Mb
+      - FR |28.30Mb
+      - US |15.72Mb
+      - US_2016 |14.69Mb
+      - US |15.81Mb
+      - US_2075 |14.70Mb
+      - US_2233 | 9.25Mb
+      - US_2081 | 8.80Mb
+      - US |17.67Mb
+      - US_1996 |10.53Mb
+      - US_2203 |13.71Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -236,26 +180,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _495 |19.42Mb
-      - "|20.38Mb"
-      - _1092+|18.61Mb
-      - "|27.64Mb"
-      - "|26.98Mb"
-      - "|27.79Mb"
-      - "|29.65Mb"
-      - "|28.18Mb"
-      - _2304+|19.50Mb
-      - "|23.23Mb"
-      - "|26.61Mb"
-      - "|27.96Mb"
-      - _2201+|19.86Mb
-      - _2213+|19.68Mb
-      - _317+|16.91Mb
-      - _2198+|19.85Mb
-      - _2492+|19.71Mb
-      - _1912+|16.93Mb
-      - "|28.68Mb"
-      - _2398+|19.70Mb
+      - US_2235 |14.60Mb
+      - US |16.67Mb
+      - US_2234 | 9.40Mb
+      - FR |28.30Mb
+      - US |15.72Mb
+      - US_2016 |14.69Mb
+      - US |15.81Mb
+      - US_2075 |14.70Mb
+      - US_2233 | 9.25Mb
+      - US_2081 | 8.80Mb
+      - US |17.67Mb
+      - US_1996 |10.53Mb
+      - US_2203 |13.71Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
