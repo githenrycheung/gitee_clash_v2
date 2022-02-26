@@ -5,151 +5,71 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |45.47Mb, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |80.98Mb, server: 112.33.36.109, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|25.61Mb", server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |33.93Mb, server: hkcn2.doubledou.win, port: 4588, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: hkcn2.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |46.62Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|34.82Mb", server: 185.217.110.195, port: 51390, type: trojan, password: xbTvw1dpLn, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |29.83Mb, server: azhk.relay.qchwnd.moe, port: 10215, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: "|33.74Mb", server: 185.217.111.132, port: 32110, type: trojan, password: OFXHnebQEK, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |30.06Mb, server: 218.78.10.181, port: 10002, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |34.89Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |22.44Mb, server: cera.doubledou.win, port: 4586, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cera.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |25.58Mb, server: v2losdmit1.doubledou.win, port: 6674, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: v2losdmit1.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |18.55Mb, server: cuvip.doubledou.win, port: 4583, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: cuvip.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |16.49Mb, server: shanghai.doubledou.win, port: 20044, type: trojan, password: 3c91d857-2d40-39b9-81c0-f6adde8037ff, sni: shanghai.doubledou.win, skip-cert-verify: true, udp: true}
-  - {name: "|27.85Mb", server: 59.125.11.164, port: 8369, type: ss, cipher: rc4-md5, password: passinfo123, udp: true}
-  - {name: "|20.38Mb", server: 169.197.142.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|20.30Mb", server: 169.197.142.187, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.32Mb", server: 169.197.142.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Relay_ |115.67Mb, server: in1.pbaplink.xyz, port: 8443, type: trojan, password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb, sni: in1.pbaplink.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|15.37Mb", server: 134.195.196.221, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|16.04Mb", server: 134.195.196.221, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|20.50Mb", server: 134.195.196.221, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|20.39Mb", server: 134.195.196.221, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|20.69Mb", server: 134.195.196.221, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|20.65Mb", server: 134.195.196.221, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|19.02Mb", server: 134.195.196.221, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|19.43Mb", server: 134.195.196.221, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|20.58Mb", server: 134.195.196.221, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Relay_ |64.04Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|29.25Mb", server: 51.255.66.185, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|23.32Mb", server: 149.202.82.172, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|24.04Mb", server: 172.99.190.188, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Relay_ |49.70Mb, server: os2-8.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-8.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |43.65Mb, server: os2-6.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-6.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |52.03Mb, server: os2-5.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-5.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |49.20Mb, server: os2-7.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-7.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |49.62Mb, server: os2-2.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-2.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |17.03Mb, server: gzcm.v2hub.top, port: 19521, type: trojan, password: da8f4c57-d022-3ccc-ae2a-a70256d68c32, sni: gzcm.v2hub.top, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |92.02Mb, server: az1.xrenblog.com, port: 53067, type: vmess, uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |62.60Mb, server: gzbgpss.8n4t.cn, port: 20115, type: trojan, password: 43a29215-a4c6-3b8a-9697-5242c8f09213, sni: gzbgpss.8n4t.cn, skip-cert-verify: true, udp: true}
+  - {name: "|21.47Mb", server: 209.141.47.137, port: 443, type: trojan, password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |50.27Mb, server: os2-3.sstr-api.xyz, port: 443, type: trojan, password: MhPG7g9x2Etb4Hspsb, sni: os2-3.sstr-api.xyz, skip-cert-verify: true, udp: true}
+  - {name: "|18.72Mb", server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: "|21.18Mb", server: 149.202.82.172, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |45.47Mb
-      - Relay_ |80.98Mb
-      - "|25.61Mb"
-      - Relay_ |33.93Mb
-      - Relay_ |46.62Mb
-      - "|34.82Mb"
-      - Relay_ |29.83Mb
-      - "|33.74Mb"
-      - Relay_ |30.06Mb
-      - Relay_ |34.89Mb
-      - Relay_ |22.44Mb
-      - Relay_ |25.58Mb
-      - Relay_ |18.55Mb
-      - Relay_ |16.49Mb
-      - "|27.85Mb"
-      - "|20.38Mb"
-      - "|20.30Mb"
-      - "|20.32Mb"
-      - Relay_ |115.67Mb
-      - "|15.37Mb"
-      - "|16.04Mb"
-      - "|20.50Mb"
-      - "|20.39Mb"
-      - "|20.69Mb"
-      - "|20.65Mb"
-      - "|19.02Mb"
-      - "|19.43Mb"
-      - "|20.58Mb"
-      - Relay_ |64.04Mb
-      - "|29.25Mb"
-      - "|23.32Mb"
-      - "|24.04Mb"
+      - Relay_ |49.70Mb
+      - Relay_ |43.65Mb
+      - Relay_ |52.03Mb
+      - Relay_ |49.20Mb
+      - Relay_ |49.62Mb
+      - Relay_ |17.03Mb
+      - Relay_ |92.02Mb
+      - Relay_ |62.60Mb
+      - "|21.47Mb"
+      - Relay_ |50.27Mb
+      - "|18.72Mb"
+      - "|21.18Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |45.47Mb
-      - Relay_ |80.98Mb
-      - "|25.61Mb"
-      - Relay_ |33.93Mb
-      - Relay_ |46.62Mb
-      - "|34.82Mb"
-      - Relay_ |29.83Mb
-      - "|33.74Mb"
-      - Relay_ |30.06Mb
-      - Relay_ |34.89Mb
-      - Relay_ |22.44Mb
-      - Relay_ |25.58Mb
-      - Relay_ |18.55Mb
-      - Relay_ |16.49Mb
-      - "|27.85Mb"
-      - "|20.38Mb"
-      - "|20.30Mb"
-      - "|20.32Mb"
-      - Relay_ |115.67Mb
-      - "|15.37Mb"
-      - "|16.04Mb"
-      - "|20.50Mb"
-      - "|20.39Mb"
-      - "|20.69Mb"
-      - "|20.65Mb"
-      - "|19.02Mb"
-      - "|19.43Mb"
-      - "|20.58Mb"
-      - Relay_ |64.04Mb
-      - "|29.25Mb"
-      - "|23.32Mb"
-      - "|24.04Mb"
+      - Relay_ |49.70Mb
+      - Relay_ |43.65Mb
+      - Relay_ |52.03Mb
+      - Relay_ |49.20Mb
+      - Relay_ |49.62Mb
+      - Relay_ |17.03Mb
+      - Relay_ |92.02Mb
+      - Relay_ |62.60Mb
+      - "|21.47Mb"
+      - Relay_ |50.27Mb
+      - "|18.72Mb"
+      - "|21.18Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |45.47Mb
-      - Relay_ |80.98Mb
-      - "|25.61Mb"
-      - Relay_ |33.93Mb
-      - Relay_ |46.62Mb
-      - "|34.82Mb"
-      - Relay_ |29.83Mb
-      - "|33.74Mb"
-      - Relay_ |30.06Mb
-      - Relay_ |34.89Mb
-      - Relay_ |22.44Mb
-      - Relay_ |25.58Mb
-      - Relay_ |18.55Mb
-      - Relay_ |16.49Mb
-      - "|27.85Mb"
-      - "|20.38Mb"
-      - "|20.30Mb"
-      - "|20.32Mb"
-      - Relay_ |115.67Mb
-      - "|15.37Mb"
-      - "|16.04Mb"
-      - "|20.50Mb"
-      - "|20.39Mb"
-      - "|20.69Mb"
-      - "|20.65Mb"
-      - "|19.02Mb"
-      - "|19.43Mb"
-      - "|20.58Mb"
-      - Relay_ |64.04Mb
-      - "|29.25Mb"
-      - "|23.32Mb"
-      - "|24.04Mb"
+      - Relay_ |49.70Mb
+      - Relay_ |43.65Mb
+      - Relay_ |52.03Mb
+      - Relay_ |49.20Mb
+      - Relay_ |49.62Mb
+      - Relay_ |17.03Mb
+      - Relay_ |92.02Mb
+      - Relay_ |62.60Mb
+      - "|21.47Mb"
+      - Relay_ |50.27Mb
+      - "|18.72Mb"
+      - "|21.18Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,38 +88,18 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |45.47Mb
-      - Relay_ |80.98Mb
-      - "|25.61Mb"
-      - Relay_ |33.93Mb
-      - Relay_ |46.62Mb
-      - "|34.82Mb"
-      - Relay_ |29.83Mb
-      - "|33.74Mb"
-      - Relay_ |30.06Mb
-      - Relay_ |34.89Mb
-      - Relay_ |22.44Mb
-      - Relay_ |25.58Mb
-      - Relay_ |18.55Mb
-      - Relay_ |16.49Mb
-      - "|27.85Mb"
-      - "|20.38Mb"
-      - "|20.30Mb"
-      - "|20.32Mb"
-      - Relay_ |115.67Mb
-      - "|15.37Mb"
-      - "|16.04Mb"
-      - "|20.50Mb"
-      - "|20.39Mb"
-      - "|20.69Mb"
-      - "|20.65Mb"
-      - "|19.02Mb"
-      - "|19.43Mb"
-      - "|20.58Mb"
-      - Relay_ |64.04Mb
-      - "|29.25Mb"
-      - "|23.32Mb"
-      - "|24.04Mb"
+      - Relay_ |49.70Mb
+      - Relay_ |43.65Mb
+      - Relay_ |52.03Mb
+      - Relay_ |49.20Mb
+      - Relay_ |49.62Mb
+      - Relay_ |17.03Mb
+      - Relay_ |92.02Mb
+      - Relay_ |62.60Mb
+      - "|21.47Mb"
+      - Relay_ |50.27Mb
+      - "|18.72Mb"
+      - "|21.18Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -210,113 +110,53 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |45.47Mb
-      - Relay_ |80.98Mb
-      - "|25.61Mb"
-      - Relay_ |33.93Mb
-      - Relay_ |46.62Mb
-      - "|34.82Mb"
-      - Relay_ |29.83Mb
-      - "|33.74Mb"
-      - Relay_ |30.06Mb
-      - Relay_ |34.89Mb
-      - Relay_ |22.44Mb
-      - Relay_ |25.58Mb
-      - Relay_ |18.55Mb
-      - Relay_ |16.49Mb
-      - "|27.85Mb"
-      - "|20.38Mb"
-      - "|20.30Mb"
-      - "|20.32Mb"
-      - Relay_ |115.67Mb
-      - "|15.37Mb"
-      - "|16.04Mb"
-      - "|20.50Mb"
-      - "|20.39Mb"
-      - "|20.69Mb"
-      - "|20.65Mb"
-      - "|19.02Mb"
-      - "|19.43Mb"
-      - "|20.58Mb"
-      - Relay_ |64.04Mb
-      - "|29.25Mb"
-      - "|23.32Mb"
-      - "|24.04Mb"
+      - Relay_ |49.70Mb
+      - Relay_ |43.65Mb
+      - Relay_ |52.03Mb
+      - Relay_ |49.20Mb
+      - Relay_ |49.62Mb
+      - Relay_ |17.03Mb
+      - Relay_ |92.02Mb
+      - Relay_ |62.60Mb
+      - "|21.47Mb"
+      - Relay_ |50.27Mb
+      - "|18.72Mb"
+      - "|21.18Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |45.47Mb
-      - Relay_ |80.98Mb
-      - "|25.61Mb"
-      - Relay_ |33.93Mb
-      - Relay_ |46.62Mb
-      - "|34.82Mb"
-      - Relay_ |29.83Mb
-      - "|33.74Mb"
-      - Relay_ |30.06Mb
-      - Relay_ |34.89Mb
-      - Relay_ |22.44Mb
-      - Relay_ |25.58Mb
-      - Relay_ |18.55Mb
-      - Relay_ |16.49Mb
-      - "|27.85Mb"
-      - "|20.38Mb"
-      - "|20.30Mb"
-      - "|20.32Mb"
-      - Relay_ |115.67Mb
-      - "|15.37Mb"
-      - "|16.04Mb"
-      - "|20.50Mb"
-      - "|20.39Mb"
-      - "|20.69Mb"
-      - "|20.65Mb"
-      - "|19.02Mb"
-      - "|19.43Mb"
-      - "|20.58Mb"
-      - Relay_ |64.04Mb
-      - "|29.25Mb"
-      - "|23.32Mb"
-      - "|24.04Mb"
+      - Relay_ |49.70Mb
+      - Relay_ |43.65Mb
+      - Relay_ |52.03Mb
+      - Relay_ |49.20Mb
+      - Relay_ |49.62Mb
+      - Relay_ |17.03Mb
+      - Relay_ |92.02Mb
+      - Relay_ |62.60Mb
+      - "|21.47Mb"
+      - Relay_ |50.27Mb
+      - "|18.72Mb"
+      - "|21.18Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |45.47Mb
-      - Relay_ |80.98Mb
-      - "|25.61Mb"
-      - Relay_ |33.93Mb
-      - Relay_ |46.62Mb
-      - "|34.82Mb"
-      - Relay_ |29.83Mb
-      - "|33.74Mb"
-      - Relay_ |30.06Mb
-      - Relay_ |34.89Mb
-      - Relay_ |22.44Mb
-      - Relay_ |25.58Mb
-      - Relay_ |18.55Mb
-      - Relay_ |16.49Mb
-      - "|27.85Mb"
-      - "|20.38Mb"
-      - "|20.30Mb"
-      - "|20.32Mb"
-      - Relay_ |115.67Mb
-      - "|15.37Mb"
-      - "|16.04Mb"
-      - "|20.50Mb"
-      - "|20.39Mb"
-      - "|20.69Mb"
-      - "|20.65Mb"
-      - "|19.02Mb"
-      - "|19.43Mb"
-      - "|20.58Mb"
-      - Relay_ |64.04Mb
-      - "|29.25Mb"
-      - "|23.32Mb"
-      - "|24.04Mb"
+      - Relay_ |49.70Mb
+      - Relay_ |43.65Mb
+      - Relay_ |52.03Mb
+      - Relay_ |49.20Mb
+      - Relay_ |49.62Mb
+      - Relay_ |17.03Mb
+      - Relay_ |92.02Mb
+      - Relay_ |62.60Mb
+      - "|21.47Mb"
+      - Relay_ |50.27Mb
+      - "|18.72Mb"
+      - "|21.18Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +172,18 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |45.47Mb
-      - Relay_ |80.98Mb
-      - "|25.61Mb"
-      - Relay_ |33.93Mb
-      - Relay_ |46.62Mb
-      - "|34.82Mb"
-      - Relay_ |29.83Mb
-      - "|33.74Mb"
-      - Relay_ |30.06Mb
-      - Relay_ |34.89Mb
-      - Relay_ |22.44Mb
-      - Relay_ |25.58Mb
-      - Relay_ |18.55Mb
-      - Relay_ |16.49Mb
-      - "|27.85Mb"
-      - "|20.38Mb"
-      - "|20.30Mb"
-      - "|20.32Mb"
-      - Relay_ |115.67Mb
-      - "|15.37Mb"
-      - "|16.04Mb"
-      - "|20.50Mb"
-      - "|20.39Mb"
-      - "|20.69Mb"
-      - "|20.65Mb"
-      - "|19.02Mb"
-      - "|19.43Mb"
-      - "|20.58Mb"
-      - Relay_ |64.04Mb
-      - "|29.25Mb"
-      - "|23.32Mb"
-      - "|24.04Mb"
+      - Relay_ |49.70Mb
+      - Relay_ |43.65Mb
+      - Relay_ |52.03Mb
+      - Relay_ |49.20Mb
+      - Relay_ |49.62Mb
+      - Relay_ |17.03Mb
+      - Relay_ |92.02Mb
+      - Relay_ |62.60Mb
+      - "|21.47Mb"
+      - Relay_ |50.27Mb
+      - "|18.72Mb"
+      - "|21.18Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
