@@ -5,43 +5,35 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: SG_707 |192.12Mb, server: 52.77.242.162, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: IR_585 |30.84Mb, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb, server: gz1.52168.xyz, port: 1107, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb, server: gz1.52168.xyz, port: 1103, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
+  - {name: US_892 |58.22Mb, server: 3.39.6.141, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: SG_702 |175.58Mb, server: 54.151.244.16, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: US_2132 |70.96Mb, server: 3.36.121.97, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG_707 |192.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb
-      - IR_585 |30.84Mb
-      - Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb
-      - Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb
+      - US_892 |58.22Mb
+      - SG_702 |175.58Mb
+      - US_2132 |70.96Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - SG_707 |192.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb
-      - IR_585 |30.84Mb
-      - Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb
-      - Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb
+      - US_892 |58.22Mb
+      - SG_702 |175.58Mb
+      - US_2132 |70.96Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG_707 |192.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb
-      - IR_585 |30.84Mb
-      - Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb
-      - Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb
+      - US_892 |58.22Mb
+      - SG_702 |175.58Mb
+      - US_2132 |70.96Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,11 +52,9 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - SG_707 |192.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb
-      - IR_585 |30.84Mb
-      - Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb
-      - Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb
+      - US_892 |58.22Mb
+      - SG_702 |175.58Mb
+      - US_2132 |70.96Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -75,32 +65,26 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - SG_707 |192.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb
-      - IR_585 |30.84Mb
-      - Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb
-      - Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb
+      - US_892 |58.22Mb
+      - SG_702 |175.58Mb
+      - US_2132 |70.96Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - SG_707 |192.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb
-      - IR_585 |30.84Mb
-      - Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb
-      - Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb
+      - US_892 |58.22Mb
+      - SG_702 |175.58Mb
+      - US_2132 |70.96Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG_707 |192.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb
-      - IR_585 |30.84Mb
-      - Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb
-      - Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb
+      - US_892 |58.22Mb
+      - SG_702 |175.58Mb
+      - US_2132 |70.96Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +100,9 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - SG_707 |192.12Mb
-      - Relay_🇨🇳CN-🇺🇸US_294 |24.69Mb
-      - IR_585 |30.84Mb
-      - Relay_🇨🇳CN-🏁ZZ_305 |19.16Mb
-      - Relay_🇨🇳CN-🇮🇩ID_301 |22.59Mb
+      - US_892 |58.22Mb
+      - SG_702 |175.58Mb
+      - US_2132 |70.96Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
