@@ -5,139 +5,67 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: KR_627 |56.79Mb, server: 13.125.239.214, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: US_1876 | 7.59Mb, server: 158.247.224.121, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb, server: 120.232.192.119, port: 3389, type: trojan, password: a3c6461972471c75, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb, server: 104.208.112.171, port: 3389, type: trojan, password: ca911d30af65ef1b, skip-cert-verify: true, udp: true}
-  - {name: RO_671 |20.56Mb, server: 62.216.91.229, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
-  - {name: US_881 |11.49Mb, server: 167.88.63.61, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1181 |16.32Mb, server: 142.202.48.74, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: CA_207 |19.64Mb, server: 198.57.27.191, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_2068 |12.30Mb, server: 167.88.63.61, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1749 |11.72Mb, server: 167.88.63.61, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: CA_275 |18.62Mb, server: 198.57.27.191, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA_201 |20.60Mb, server: 198.57.27.191, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1746 |12.12Mb, server: 167.88.63.61, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1130 |12.12Mb, server: 142.202.48.74, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1753 | 7.41Mb, server: 167.88.63.61, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: CA_180 |18.90Mb, server: 198.57.27.191, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1685 |17.69Mb, server: 142.202.48.74, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1061 |17.51Mb, server: 142.202.48.74, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1881 | 7.22Mb, server: 158.247.224.121, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb, server: zfd-unicom.ddnsnode.com, port: 16229, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb, server: zfd-unicom.ddnsnode.com, port: 16227, type: vmess, uuid: f8a35790-1599-38a5-bed9-224befd26d38, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb, server: 104.208.112.171, port: 3389, type: trojan, password: 9029864a78d29a43, skip-cert-verify: true, udp: true}
-  - {name: US_960 |11.95Mb, server: 167.88.63.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1743 |11.64Mb, server: 167.88.63.61, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_2270 |13.60Mb, server: 169.197.142.4, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1030 |10.64Mb, server: 142.202.48.74, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: ZZ_2268 |11.02Mb, server: 169.197.142.4, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: ZZ_2259 |20.12Mb, server: 169.197.142.4, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1959 | 6.43Mb, server: 142.202.48.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb, server: tw.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 08d178d4-ec8b-11eb-a8bf-f23c91cfbbc9, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: US_1406 |16.29Mb, server: 192.46.209.146, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: DE_359 |29.41Mb, server: 142.93.168.188, port: 21612, type: ss, cipher: chacha20-ietf-poly1305, password: zUOC2CcSPiEX, udp: true}
+  - {name: Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb, server: ssl.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: ssl.tcpbbr.net, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_627 |56.79Mb
-      - US_1876 | 7.59Mb
-      - Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb
-      - Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb
-      - RO_671 |20.56Mb
-      - US_881 |11.49Mb
-      - US_1181 |16.32Mb
-      - CA_207 |19.64Mb
-      - US_2068 |12.30Mb
-      - US_1749 |11.72Mb
-      - CA_275 |18.62Mb
-      - CA_201 |20.60Mb
-      - US_1746 |12.12Mb
-      - US_1130 |12.12Mb
-      - US_1753 | 7.41Mb
-      - CA_180 |18.90Mb
-      - US_1685 |17.69Mb
-      - US_1061 |17.51Mb
-      - US_1881 | 7.22Mb
-      - Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb
-      - Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb
-      - Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb
-      - US_960 |11.95Mb
-      - US_1743 |11.64Mb
-      - ZZ_2270 |13.60Mb
-      - US_1030 |10.64Mb
-      - ZZ_2268 |11.02Mb
-      - ZZ_2259 |20.12Mb
-      - US_1959 | 6.43Mb
+      - Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb
+      - Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb
+      - Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb
+      - Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb
+      - Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb
+      - Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb
+      - Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb
+      - US_1406 |16.29Mb
+      - DE_359 |29.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - KR_627 |56.79Mb
-      - US_1876 | 7.59Mb
-      - Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb
-      - Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb
-      - RO_671 |20.56Mb
-      - US_881 |11.49Mb
-      - US_1181 |16.32Mb
-      - CA_207 |19.64Mb
-      - US_2068 |12.30Mb
-      - US_1749 |11.72Mb
-      - CA_275 |18.62Mb
-      - CA_201 |20.60Mb
-      - US_1746 |12.12Mb
-      - US_1130 |12.12Mb
-      - US_1753 | 7.41Mb
-      - CA_180 |18.90Mb
-      - US_1685 |17.69Mb
-      - US_1061 |17.51Mb
-      - US_1881 | 7.22Mb
-      - Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb
-      - Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb
-      - Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb
-      - US_960 |11.95Mb
-      - US_1743 |11.64Mb
-      - ZZ_2270 |13.60Mb
-      - US_1030 |10.64Mb
-      - ZZ_2268 |11.02Mb
-      - ZZ_2259 |20.12Mb
-      - US_1959 | 6.43Mb
+      - Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb
+      - Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb
+      - Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb
+      - Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb
+      - Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb
+      - Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb
+      - Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb
+      - US_1406 |16.29Mb
+      - DE_359 |29.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_627 |56.79Mb
-      - US_1876 | 7.59Mb
-      - Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb
-      - Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb
-      - RO_671 |20.56Mb
-      - US_881 |11.49Mb
-      - US_1181 |16.32Mb
-      - CA_207 |19.64Mb
-      - US_2068 |12.30Mb
-      - US_1749 |11.72Mb
-      - CA_275 |18.62Mb
-      - CA_201 |20.60Mb
-      - US_1746 |12.12Mb
-      - US_1130 |12.12Mb
-      - US_1753 | 7.41Mb
-      - CA_180 |18.90Mb
-      - US_1685 |17.69Mb
-      - US_1061 |17.51Mb
-      - US_1881 | 7.22Mb
-      - Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb
-      - Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb
-      - Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb
-      - US_960 |11.95Mb
-      - US_1743 |11.64Mb
-      - ZZ_2270 |13.60Mb
-      - US_1030 |10.64Mb
-      - ZZ_2268 |11.02Mb
-      - ZZ_2259 |20.12Mb
-      - US_1959 | 6.43Mb
+      - Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb
+      - Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb
+      - Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb
+      - Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb
+      - Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb
+      - Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb
+      - Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb
+      - US_1406 |16.29Mb
+      - DE_359 |29.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -156,35 +84,17 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - KR_627 |56.79Mb
-      - US_1876 | 7.59Mb
-      - Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb
-      - Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb
-      - RO_671 |20.56Mb
-      - US_881 |11.49Mb
-      - US_1181 |16.32Mb
-      - CA_207 |19.64Mb
-      - US_2068 |12.30Mb
-      - US_1749 |11.72Mb
-      - CA_275 |18.62Mb
-      - CA_201 |20.60Mb
-      - US_1746 |12.12Mb
-      - US_1130 |12.12Mb
-      - US_1753 | 7.41Mb
-      - CA_180 |18.90Mb
-      - US_1685 |17.69Mb
-      - US_1061 |17.51Mb
-      - US_1881 | 7.22Mb
-      - Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb
-      - Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb
-      - Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb
-      - US_960 |11.95Mb
-      - US_1743 |11.64Mb
-      - ZZ_2270 |13.60Mb
-      - US_1030 |10.64Mb
-      - ZZ_2268 |11.02Mb
-      - ZZ_2259 |20.12Mb
-      - US_1959 | 6.43Mb
+      - Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb
+      - Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb
+      - Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb
+      - Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb
+      - Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb
+      - Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb
+      - Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb
+      - US_1406 |16.29Mb
+      - DE_359 |29.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -195,104 +105,50 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - KR_627 |56.79Mb
-      - US_1876 | 7.59Mb
-      - Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb
-      - Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb
-      - RO_671 |20.56Mb
-      - US_881 |11.49Mb
-      - US_1181 |16.32Mb
-      - CA_207 |19.64Mb
-      - US_2068 |12.30Mb
-      - US_1749 |11.72Mb
-      - CA_275 |18.62Mb
-      - CA_201 |20.60Mb
-      - US_1746 |12.12Mb
-      - US_1130 |12.12Mb
-      - US_1753 | 7.41Mb
-      - CA_180 |18.90Mb
-      - US_1685 |17.69Mb
-      - US_1061 |17.51Mb
-      - US_1881 | 7.22Mb
-      - Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb
-      - Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb
-      - Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb
-      - US_960 |11.95Mb
-      - US_1743 |11.64Mb
-      - ZZ_2270 |13.60Mb
-      - US_1030 |10.64Mb
-      - ZZ_2268 |11.02Mb
-      - ZZ_2259 |20.12Mb
-      - US_1959 | 6.43Mb
+      - Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb
+      - Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb
+      - Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb
+      - Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb
+      - Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb
+      - Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb
+      - Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb
+      - US_1406 |16.29Mb
+      - DE_359 |29.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - KR_627 |56.79Mb
-      - US_1876 | 7.59Mb
-      - Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb
-      - Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb
-      - RO_671 |20.56Mb
-      - US_881 |11.49Mb
-      - US_1181 |16.32Mb
-      - CA_207 |19.64Mb
-      - US_2068 |12.30Mb
-      - US_1749 |11.72Mb
-      - CA_275 |18.62Mb
-      - CA_201 |20.60Mb
-      - US_1746 |12.12Mb
-      - US_1130 |12.12Mb
-      - US_1753 | 7.41Mb
-      - CA_180 |18.90Mb
-      - US_1685 |17.69Mb
-      - US_1061 |17.51Mb
-      - US_1881 | 7.22Mb
-      - Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb
-      - Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb
-      - Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb
-      - US_960 |11.95Mb
-      - US_1743 |11.64Mb
-      - ZZ_2270 |13.60Mb
-      - US_1030 |10.64Mb
-      - ZZ_2268 |11.02Mb
-      - ZZ_2259 |20.12Mb
-      - US_1959 | 6.43Mb
+      - Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb
+      - Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb
+      - Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb
+      - Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb
+      - Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb
+      - Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb
+      - Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb
+      - US_1406 |16.29Mb
+      - DE_359 |29.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR_627 |56.79Mb
-      - US_1876 | 7.59Mb
-      - Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb
-      - Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb
-      - RO_671 |20.56Mb
-      - US_881 |11.49Mb
-      - US_1181 |16.32Mb
-      - CA_207 |19.64Mb
-      - US_2068 |12.30Mb
-      - US_1749 |11.72Mb
-      - CA_275 |18.62Mb
-      - CA_201 |20.60Mb
-      - US_1746 |12.12Mb
-      - US_1130 |12.12Mb
-      - US_1753 | 7.41Mb
-      - CA_180 |18.90Mb
-      - US_1685 |17.69Mb
-      - US_1061 |17.51Mb
-      - US_1881 | 7.22Mb
-      - Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb
-      - Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb
-      - Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb
-      - US_960 |11.95Mb
-      - US_1743 |11.64Mb
-      - ZZ_2270 |13.60Mb
-      - US_1030 |10.64Mb
-      - ZZ_2268 |11.02Mb
-      - ZZ_2259 |20.12Mb
-      - US_1959 | 6.43Mb
+      - Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb
+      - Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb
+      - Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb
+      - Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb
+      - Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb
+      - Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb
+      - Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb
+      - US_1406 |16.29Mb
+      - DE_359 |29.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -308,35 +164,17 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - KR_627 |56.79Mb
-      - US_1876 | 7.59Mb
-      - Relay_🇨🇳CN-🇹🇼TW_310 | 9.80Mb
-      - Relay_🇭🇰HK-🇹🇼TW_649 |107.97Mb
-      - RO_671 |20.56Mb
-      - US_881 |11.49Mb
-      - US_1181 |16.32Mb
-      - CA_207 |19.64Mb
-      - US_2068 |12.30Mb
-      - US_1749 |11.72Mb
-      - CA_275 |18.62Mb
-      - CA_201 |20.60Mb
-      - US_1746 |12.12Mb
-      - US_1130 |12.12Mb
-      - US_1753 | 7.41Mb
-      - CA_180 |18.90Mb
-      - US_1685 |17.69Mb
-      - US_1061 |17.51Mb
-      - US_1881 | 7.22Mb
-      - Relay_🇨🇳CN-🇸🇬SG_305 |24.89Mb
-      - Relay_🇨🇳CN-🇸🇬SG_302 |55.91Mb
-      - Relay_🇭🇰HK-🇹🇼TW_517 |11.68Mb
-      - US_960 |11.95Mb
-      - US_1743 |11.64Mb
-      - ZZ_2270 |13.60Mb
-      - US_1030 |10.64Mb
-      - ZZ_2268 |11.02Mb
-      - ZZ_2259 |20.12Mb
-      - US_1959 | 6.43Mb
+      - Relay_🇭🇰HK-🇭🇰HK_562 |22.71Mb
+      - Relay_🇭🇰HK-🇭🇰HK_561 |23.97Mb
+      - Relay_🇹🇼TW-🇹🇼TW_817 |65.92Mb
+      - Relay_🇹🇼TW-🇹🇼TW_819 |83.92Mb
+      - Relay_🇺🇸US-🇺🇸US_2210 |25.72Mb
+      - Relay_🇺🇸US-🇺🇸US_2213 |25.94Mb
+      - Relay_🇺🇸US-🇺🇸US_2211 |24.54Mb
+      - Relay_🇺🇸US-🇺🇸US_2212 |26.62Mb
+      - US_1406 |16.29Mb
+      - DE_359 |29.41Mb
+      - Relay_🇭🇰HK-🇭🇰HK_560 |18.49Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
