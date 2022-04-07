@@ -5,83 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "|69.37Mb", server: opt5.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "|25.51Mb", server: opt7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "|64.37Mb", server: gz.520vpn.cc, port: 50813, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.520vpn.cc}, udp: true}
-  - {name: "|42.00Mb", server: gz.520vpn.cc, port: 21614, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.520vpn.cc}, udp: true}
-  - {name: "|28.02Mb", server: gz.520vpn.cc, port: 21613, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.520vpn.cc}, udp: true}
-  - {name: "|49.06Mb", server: gz2.520vpn.cc, port: 20704, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz2.520vpn.cc}, udp: true}
-  - {name: "|41.79Mb", server: gz1.520vpn.cc, port: 50527, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz1.520vpn.cc}, udp: true}
-  - {name: "|109.87Mb", server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: 61be480a-eaa6-4ec6-aa39-ddb7f765b1d4, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|64.13Mb", server: krnf2.qingyun123.xyz, port: 10050, type: trojan, password: 61be480a-eaa6-4ec6-aa39-ddb7f765b1d4, sni: krnf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|44.50Mb", server: gz.520vpn.cc, port: 50514, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.520vpn.cc}, udp: true}
-  - {name: "|65.39Mb", server: opt14.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "|65.37Mb", server: opt3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "|74.24Mb", server: opt10.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "|44.71Mb", server: opt2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "|17.51Mb", server: opt1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: Relay_🇨🇳CN |58.72Mb, server: cmjm.senlinss.link, port: 21135, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
+  - {name: Relay_🇨🇳CN |18.50Mb, server: hkpro1183.azzico.website, port: 11570, type: vmess, uuid: c6322489-1b11-318a-ae2a-10dbab1f4c41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN |64.98Mb, server: cmjm.senlinss.link, port: 21125, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
+  - {name: Relay_🇨🇳CN |88.62Mb, server: cmjm.senlinss.link, port: 21117, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
+  - {name: Relay_🇨🇳CN |73.86Mb, server: cmjm.senlinss.link, port: 21112, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
+  - {name: Relay_🇨🇳CN |67.04Mb, server: hkpro2122.azzico.website, port: 11556, type: vmess, uuid: 309a3b7d-ce1a-3df2-99a5-3f2769695b26, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN |23.87Mb, server: hkpro8270.azzico.website, port: 11571, type: vmess, uuid: c6322489-1b11-318a-ae2a-10dbab1f4c41, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN |70.44Mb, server: cmjm.senlinss.link, port: 21122, type: vmess, uuid: 97b7f7ab-e3ea-3758-9c83-0ff308c14d3c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cmjm.senlinss.link}, udp: true}
+  - {name: Relay_🇭🇰HK |126.02Mb, server: tanz-moble.0098dns01in.work, port: 35071, type: vmess, uuid: bd198085-c950-3e20-b5a3-dec879762ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK |48.41Mb, server: tanz-unicom.0098dns01in.work, port: 35006, type: vmess, uuid: bd198085-c950-3e20-b5a3-dec879762ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK |50.66Mb, server: tanz-moble.0098dns01in.work, port: 35067, type: vmess, uuid: bd198085-c950-3e20-b5a3-dec879762ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK |134.34Mb, server: tanz-moble.0098dns01in.work, port: 35011, type: vmess, uuid: bd198085-c950-3e20-b5a3-dec879762ba5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇭🇰HK |132.43Mb, server: azhk05.yitaiml.xyz, port: 443, type: vmess, uuid: 08f91f07-9506-41b4-b115-0b45640fe701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JJkuv3, ws-headers: {Host: azhk05.yitaiml.xyz}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|69.37Mb"
-      - "|25.51Mb"
-      - "|64.37Mb"
-      - "|42.00Mb"
-      - "|28.02Mb"
-      - "|49.06Mb"
-      - "|41.79Mb"
-      - "|109.87Mb"
-      - "|64.13Mb"
-      - "|44.50Mb"
-      - "|65.39Mb"
-      - "|65.37Mb"
-      - "|74.24Mb"
-      - "|44.71Mb"
-      - "|17.51Mb"
+      - Relay_🇨🇳CN |58.72Mb
+      - Relay_🇨🇳CN |18.50Mb
+      - Relay_🇨🇳CN |64.98Mb
+      - Relay_🇨🇳CN |88.62Mb
+      - Relay_🇨🇳CN |73.86Mb
+      - Relay_🇨🇳CN |67.04Mb
+      - Relay_🇨🇳CN |23.87Mb
+      - Relay_🇨🇳CN |70.44Mb
+      - Relay_🇭🇰HK |126.02Mb
+      - Relay_🇭🇰HK |48.41Mb
+      - Relay_🇭🇰HK |50.66Mb
+      - Relay_🇭🇰HK |134.34Mb
+      - Relay_🇭🇰HK |132.43Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|69.37Mb"
-      - "|25.51Mb"
-      - "|64.37Mb"
-      - "|42.00Mb"
-      - "|28.02Mb"
-      - "|49.06Mb"
-      - "|41.79Mb"
-      - "|109.87Mb"
-      - "|64.13Mb"
-      - "|44.50Mb"
-      - "|65.39Mb"
-      - "|65.37Mb"
-      - "|74.24Mb"
-      - "|44.71Mb"
-      - "|17.51Mb"
+      - Relay_🇨🇳CN |58.72Mb
+      - Relay_🇨🇳CN |18.50Mb
+      - Relay_🇨🇳CN |64.98Mb
+      - Relay_🇨🇳CN |88.62Mb
+      - Relay_🇨🇳CN |73.86Mb
+      - Relay_🇨🇳CN |67.04Mb
+      - Relay_🇨🇳CN |23.87Mb
+      - Relay_🇨🇳CN |70.44Mb
+      - Relay_🇭🇰HK |126.02Mb
+      - Relay_🇭🇰HK |48.41Mb
+      - Relay_🇭🇰HK |50.66Mb
+      - Relay_🇭🇰HK |134.34Mb
+      - Relay_🇭🇰HK |132.43Mb
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|69.37Mb"
-      - "|25.51Mb"
-      - "|64.37Mb"
-      - "|42.00Mb"
-      - "|28.02Mb"
-      - "|49.06Mb"
-      - "|41.79Mb"
-      - "|109.87Mb"
-      - "|64.13Mb"
-      - "|44.50Mb"
-      - "|65.39Mb"
-      - "|65.37Mb"
-      - "|74.24Mb"
-      - "|44.71Mb"
-      - "|17.51Mb"
+      - Relay_🇨🇳CN |58.72Mb
+      - Relay_🇨🇳CN |18.50Mb
+      - Relay_🇨🇳CN |64.98Mb
+      - Relay_🇨🇳CN |88.62Mb
+      - Relay_🇨🇳CN |73.86Mb
+      - Relay_🇨🇳CN |67.04Mb
+      - Relay_🇨🇳CN |23.87Mb
+      - Relay_🇨🇳CN |70.44Mb
+      - Relay_🇭🇰HK |126.02Mb
+      - Relay_🇭🇰HK |48.41Mb
+      - Relay_🇭🇰HK |50.66Mb
+      - Relay_🇭🇰HK |134.34Mb
+      - Relay_🇭🇰HK |132.43Mb
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -100,21 +92,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|69.37Mb"
-      - "|25.51Mb"
-      - "|64.37Mb"
-      - "|42.00Mb"
-      - "|28.02Mb"
-      - "|49.06Mb"
-      - "|41.79Mb"
-      - "|109.87Mb"
-      - "|64.13Mb"
-      - "|44.50Mb"
-      - "|65.39Mb"
-      - "|65.37Mb"
-      - "|74.24Mb"
-      - "|44.71Mb"
-      - "|17.51Mb"
+      - Relay_🇨🇳CN |58.72Mb
+      - Relay_🇨🇳CN |18.50Mb
+      - Relay_🇨🇳CN |64.98Mb
+      - Relay_🇨🇳CN |88.62Mb
+      - Relay_🇨🇳CN |73.86Mb
+      - Relay_🇨🇳CN |67.04Mb
+      - Relay_🇨🇳CN |23.87Mb
+      - Relay_🇨🇳CN |70.44Mb
+      - Relay_🇭🇰HK |126.02Mb
+      - Relay_🇭🇰HK |48.41Mb
+      - Relay_🇭🇰HK |50.66Mb
+      - Relay_🇭🇰HK |134.34Mb
+      - Relay_🇭🇰HK |132.43Mb
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -125,62 +115,56 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "|69.37Mb"
-      - "|25.51Mb"
-      - "|64.37Mb"
-      - "|42.00Mb"
-      - "|28.02Mb"
-      - "|49.06Mb"
-      - "|41.79Mb"
-      - "|109.87Mb"
-      - "|64.13Mb"
-      - "|44.50Mb"
-      - "|65.39Mb"
-      - "|65.37Mb"
-      - "|74.24Mb"
-      - "|44.71Mb"
-      - "|17.51Mb"
+      - Relay_🇨🇳CN |58.72Mb
+      - Relay_🇨🇳CN |18.50Mb
+      - Relay_🇨🇳CN |64.98Mb
+      - Relay_🇨🇳CN |88.62Mb
+      - Relay_🇨🇳CN |73.86Mb
+      - Relay_🇨🇳CN |67.04Mb
+      - Relay_🇨🇳CN |23.87Mb
+      - Relay_🇨🇳CN |70.44Mb
+      - Relay_🇭🇰HK |126.02Mb
+      - Relay_🇭🇰HK |48.41Mb
+      - Relay_🇭🇰HK |50.66Mb
+      - Relay_🇭🇰HK |134.34Mb
+      - Relay_🇭🇰HK |132.43Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "|69.37Mb"
-      - "|25.51Mb"
-      - "|64.37Mb"
-      - "|42.00Mb"
-      - "|28.02Mb"
-      - "|49.06Mb"
-      - "|41.79Mb"
-      - "|109.87Mb"
-      - "|64.13Mb"
-      - "|44.50Mb"
-      - "|65.39Mb"
-      - "|65.37Mb"
-      - "|74.24Mb"
-      - "|44.71Mb"
-      - "|17.51Mb"
+      - Relay_🇨🇳CN |58.72Mb
+      - Relay_🇨🇳CN |18.50Mb
+      - Relay_🇨🇳CN |64.98Mb
+      - Relay_🇨🇳CN |88.62Mb
+      - Relay_🇨🇳CN |73.86Mb
+      - Relay_🇨🇳CN |67.04Mb
+      - Relay_🇨🇳CN |23.87Mb
+      - Relay_🇨🇳CN |70.44Mb
+      - Relay_🇭🇰HK |126.02Mb
+      - Relay_🇭🇰HK |48.41Mb
+      - Relay_🇭🇰HK |50.66Mb
+      - Relay_🇭🇰HK |134.34Mb
+      - Relay_🇭🇰HK |132.43Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|69.37Mb"
-      - "|25.51Mb"
-      - "|64.37Mb"
-      - "|42.00Mb"
-      - "|28.02Mb"
-      - "|49.06Mb"
-      - "|41.79Mb"
-      - "|109.87Mb"
-      - "|64.13Mb"
-      - "|44.50Mb"
-      - "|65.39Mb"
-      - "|65.37Mb"
-      - "|74.24Mb"
-      - "|44.71Mb"
-      - "|17.51Mb"
+      - Relay_🇨🇳CN |58.72Mb
+      - Relay_🇨🇳CN |18.50Mb
+      - Relay_🇨🇳CN |64.98Mb
+      - Relay_🇨🇳CN |88.62Mb
+      - Relay_🇨🇳CN |73.86Mb
+      - Relay_🇨🇳CN |67.04Mb
+      - Relay_🇨🇳CN |23.87Mb
+      - Relay_🇨🇳CN |70.44Mb
+      - Relay_🇭🇰HK |126.02Mb
+      - Relay_🇭🇰HK |48.41Mb
+      - Relay_🇭🇰HK |50.66Mb
+      - Relay_🇭🇰HK |134.34Mb
+      - Relay_🇭🇰HK |132.43Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -196,21 +180,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|69.37Mb"
-      - "|25.51Mb"
-      - "|64.37Mb"
-      - "|42.00Mb"
-      - "|28.02Mb"
-      - "|49.06Mb"
-      - "|41.79Mb"
-      - "|109.87Mb"
-      - "|64.13Mb"
-      - "|44.50Mb"
-      - "|65.39Mb"
-      - "|65.37Mb"
-      - "|74.24Mb"
-      - "|44.71Mb"
-      - "|17.51Mb"
+      - Relay_🇨🇳CN |58.72Mb
+      - Relay_🇨🇳CN |18.50Mb
+      - Relay_🇨🇳CN |64.98Mb
+      - Relay_🇨🇳CN |88.62Mb
+      - Relay_🇨🇳CN |73.86Mb
+      - Relay_🇨🇳CN |67.04Mb
+      - Relay_🇨🇳CN |23.87Mb
+      - Relay_🇨🇳CN |70.44Mb
+      - Relay_🇭🇰HK |126.02Mb
+      - Relay_🇭🇰HK |48.41Mb
+      - Relay_🇭🇰HK |50.66Mb
+      - Relay_🇭🇰HK |134.34Mb
+      - Relay_🇭🇰HK |132.43Mb
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
