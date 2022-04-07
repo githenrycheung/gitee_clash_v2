@@ -5,63 +5,83 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb, server: gz1.52168.xyz, port: 1114, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: 30a2a149.baidu.com, udp: true}
-  - {name: Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb, server: 36.158.228.185, port: 61000, type: ss, cipher: aes-256-gcm, password: 71g@112sa2vGHA, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb, server: gz1.52168.xyz, port: 1110, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:y711wfz6uln, obfs-param: t.me/vpnhat, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb, server: ycy.gzhpxb.com, port: 49101, type: ss, cipher: aes-128-gcm, password: yangchaoyue, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 5a3d9b78-cb5b-11ea-82ef-f23c9164ca5d, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb, server: us2.tcpbbr.net, port: 443, type: trojan, password: 283695dc-fcc8-11ea-8684-f23c913c8d2b, sni: us2.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: IR_600 |29.09Mb, server: 185.148.14.58, port: 53514, type: trojan, password: 3r90JDGBYA, skip-cert-verify: true, udp: true}
-  - {name: US_2121 |15.70Mb, server: 167.88.61.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: NL_655 |31.54Mb, server: 85.208.108.234, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: "|69.37Mb", server: opt5.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "|25.51Mb", server: opt7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "|64.37Mb", server: gz.520vpn.cc, port: 50813, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.520vpn.cc}, udp: true}
+  - {name: "|42.00Mb", server: gz.520vpn.cc, port: 21614, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.520vpn.cc}, udp: true}
+  - {name: "|28.02Mb", server: gz.520vpn.cc, port: 21613, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.520vpn.cc}, udp: true}
+  - {name: "|49.06Mb", server: gz2.520vpn.cc, port: 20704, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz2.520vpn.cc}, udp: true}
+  - {name: "|41.79Mb", server: gz1.520vpn.cc, port: 50527, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz1.520vpn.cc}, udp: true}
+  - {name: "|109.87Mb", server: hk1.qingyun123.xyz, port: 10050, type: trojan, password: 61be480a-eaa6-4ec6-aa39-ddb7f765b1d4, sni: hk1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: "|64.13Mb", server: krnf2.qingyun123.xyz, port: 10050, type: trojan, password: 61be480a-eaa6-4ec6-aa39-ddb7f765b1d4, sni: krnf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: "|44.50Mb", server: gz.520vpn.cc, port: 50514, type: vmess, uuid: b3a9f849-a4c7-364c-a74b-8331c18209be, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: gz.520vpn.cc}, udp: true}
+  - {name: "|65.39Mb", server: opt14.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "|65.37Mb", server: opt3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "|74.24Mb", server: opt10.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "|44.71Mb", server: opt2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "|17.51Mb", server: opt1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 299781:AAnJew, obfs-param: download.windowsupdate.com, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb
-      - Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb
-      - Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb
-      - Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb
-      - Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb
-      - Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb
-      - Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb
-      - IR_600 |29.09Mb
-      - US_2121 |15.70Mb
-      - NL_655 |31.54Mb
+      - "|69.37Mb"
+      - "|25.51Mb"
+      - "|64.37Mb"
+      - "|42.00Mb"
+      - "|28.02Mb"
+      - "|49.06Mb"
+      - "|41.79Mb"
+      - "|109.87Mb"
+      - "|64.13Mb"
+      - "|44.50Mb"
+      - "|65.39Mb"
+      - "|65.37Mb"
+      - "|74.24Mb"
+      - "|44.71Mb"
+      - "|17.51Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb
-      - Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb
-      - Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb
-      - Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb
-      - Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb
-      - Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb
-      - Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb
-      - IR_600 |29.09Mb
-      - US_2121 |15.70Mb
-      - NL_655 |31.54Mb
+      - "|69.37Mb"
+      - "|25.51Mb"
+      - "|64.37Mb"
+      - "|42.00Mb"
+      - "|28.02Mb"
+      - "|49.06Mb"
+      - "|41.79Mb"
+      - "|109.87Mb"
+      - "|64.13Mb"
+      - "|44.50Mb"
+      - "|65.39Mb"
+      - "|65.37Mb"
+      - "|74.24Mb"
+      - "|44.71Mb"
+      - "|17.51Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb
-      - Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb
-      - Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb
-      - Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb
-      - Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb
-      - Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb
-      - Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb
-      - IR_600 |29.09Mb
-      - US_2121 |15.70Mb
-      - NL_655 |31.54Mb
+      - "|69.37Mb"
+      - "|25.51Mb"
+      - "|64.37Mb"
+      - "|42.00Mb"
+      - "|28.02Mb"
+      - "|49.06Mb"
+      - "|41.79Mb"
+      - "|109.87Mb"
+      - "|64.13Mb"
+      - "|44.50Mb"
+      - "|65.39Mb"
+      - "|65.37Mb"
+      - "|74.24Mb"
+      - "|44.71Mb"
+      - "|17.51Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -80,16 +100,21 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb
-      - Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb
-      - Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb
-      - Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb
-      - Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb
-      - Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb
-      - Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb
-      - IR_600 |29.09Mb
-      - US_2121 |15.70Mb
-      - NL_655 |31.54Mb
+      - "|69.37Mb"
+      - "|25.51Mb"
+      - "|64.37Mb"
+      - "|42.00Mb"
+      - "|28.02Mb"
+      - "|49.06Mb"
+      - "|41.79Mb"
+      - "|109.87Mb"
+      - "|64.13Mb"
+      - "|44.50Mb"
+      - "|65.39Mb"
+      - "|65.37Mb"
+      - "|74.24Mb"
+      - "|44.71Mb"
+      - "|17.51Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -100,47 +125,62 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb
-      - Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb
-      - Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb
-      - Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb
-      - Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb
-      - Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb
-      - Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb
-      - IR_600 |29.09Mb
-      - US_2121 |15.70Mb
-      - NL_655 |31.54Mb
+      - "|69.37Mb"
+      - "|25.51Mb"
+      - "|64.37Mb"
+      - "|42.00Mb"
+      - "|28.02Mb"
+      - "|49.06Mb"
+      - "|41.79Mb"
+      - "|109.87Mb"
+      - "|64.13Mb"
+      - "|44.50Mb"
+      - "|65.39Mb"
+      - "|65.37Mb"
+      - "|74.24Mb"
+      - "|44.71Mb"
+      - "|17.51Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb
-      - Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb
-      - Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb
-      - Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb
-      - Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb
-      - Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb
-      - Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb
-      - IR_600 |29.09Mb
-      - US_2121 |15.70Mb
-      - NL_655 |31.54Mb
+      - "|69.37Mb"
+      - "|25.51Mb"
+      - "|64.37Mb"
+      - "|42.00Mb"
+      - "|28.02Mb"
+      - "|49.06Mb"
+      - "|41.79Mb"
+      - "|109.87Mb"
+      - "|64.13Mb"
+      - "|44.50Mb"
+      - "|65.39Mb"
+      - "|65.37Mb"
+      - "|74.24Mb"
+      - "|44.71Mb"
+      - "|17.51Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb
-      - Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb
-      - Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb
-      - Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb
-      - Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb
-      - Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb
-      - Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb
-      - IR_600 |29.09Mb
-      - US_2121 |15.70Mb
-      - NL_655 |31.54Mb
+      - "|69.37Mb"
+      - "|25.51Mb"
+      - "|64.37Mb"
+      - "|42.00Mb"
+      - "|28.02Mb"
+      - "|49.06Mb"
+      - "|41.79Mb"
+      - "|109.87Mb"
+      - "|64.13Mb"
+      - "|44.50Mb"
+      - "|65.39Mb"
+      - "|65.37Mb"
+      - "|74.24Mb"
+      - "|44.71Mb"
+      - "|17.51Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,16 +196,21 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇨🇳CN-🇺🇸US_317 |16.38Mb
-      - Relay_🇨🇳CN-🇸🇬SG_309 |54.29Mb
-      - Relay_🇨🇳CN-🇺🇸US_320 |26.56Mb
-      - Relay_🇺🇸US-🇺🇸US_2158 |25.66Mb
-      - Relay_🇺🇸US-🇨🇳CN_2120 |85.29Mb
-      - Relay_🇺🇸US-🇺🇸US_2157 |25.08Mb
-      - Relay_🇺🇸US-🇺🇸US_2154 |18.43Mb
-      - IR_600 |29.09Mb
-      - US_2121 |15.70Mb
-      - NL_655 |31.54Mb
+      - "|69.37Mb"
+      - "|25.51Mb"
+      - "|64.37Mb"
+      - "|42.00Mb"
+      - "|28.02Mb"
+      - "|49.06Mb"
+      - "|41.79Mb"
+      - "|109.87Mb"
+      - "|64.13Mb"
+      - "|44.50Mb"
+      - "|65.39Mb"
+      - "|65.37Mb"
+      - "|74.24Mb"
+      - "|44.71Mb"
+      - "|17.51Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
